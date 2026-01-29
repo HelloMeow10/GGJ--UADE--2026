@@ -12,4 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f927a719ac39ac498e23820c711f5fe, type: 3}
   m_Name: DataDialogue
   m_EditorClassIdentifier: 
-  Dialogue: []
+  Dialogue:
+  - text: HolaComoAndas
+    talker: Juan
+    characterSprite: {fileID: 0}
+  - text: BIEN y tu
+    talker: detective
+    characterSprite: {fileID: 0}

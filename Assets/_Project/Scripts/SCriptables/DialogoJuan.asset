@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: DialogoJuan
   m_EditorClassIdentifier: 
   Dialogue:
-  - text: Hola
-    talker: Juan
+  - text: 
+    talker: 
     characterSprite: {fileID: 0}

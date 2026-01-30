@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class RoomScript : MonoBehaviour
@@ -6,10 +7,16 @@ public class RoomScript : MonoBehaviour
     private CanvasGroup habitacionRenderizada;
     public DataDialogue dialogo;
     public DialogueSystem sistemaDeDialogo;
+    [SerializeField]
+    private Character personaje1;
+    [SerializeField]
+    private Character personaje2;
     public void Entrar(){
         ActivarCanvasgroup(habitacionRenderizada);
 
         sistemaDeDialogo.dialogoActual = dialogo;
+        sistemaDeDialogo.personaje1 = personaje1;
+        sistemaDeDialogo.personaje2 = personaje2;
         sistemaDeDialogo.HabilitarSistema();
     }
     public void Salir(){

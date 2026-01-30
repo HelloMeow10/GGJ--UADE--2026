@@ -1,10 +1,15 @@
 using UnityEngine;
 using TMPro;
+using System;
 
 public class DialogueSystem : MonoBehaviour
 {
     [HideInInspector]
     public DataDialogue dialogoActual;
+    [HideInInspector]
+    public Character personaje1;
+    [HideInInspector]
+    public Character personaje2;
     private int lineaActual;
     [SerializeField]
     private CanvasGroup zonaDeDialogo;
@@ -43,6 +48,9 @@ public class DialogueSystem : MonoBehaviour
         ActivarCanvasgroup(BotonDeIniciar);
         DesactivarCanvasgroup(zonaDeDialogo);
         DesactivarCanvasgroup(BotonDeContinuar);
+        
+        personaje1.Iluminar();
+        personaje2.Iluminar();
     }
     public void AvanzarDialogo()
     {
@@ -59,8 +67,23 @@ public class DialogueSystem : MonoBehaviour
     }
     public void MostrarDialogo()
     {
-        textoDeDialogo.text = dialogoActual.Dialogue[lineaActual].text;
-        nombreDelActor.text = dialogoActual.Dialogue[lineaActual].talker;
+        string talker = dialogoActual.Dialogue[lineaActual].talker;
+        string text = dialogoActual.Dialogue[lineaActual].text;
+        textoDeDialogo.text = text;
+        nombreDelActor.text = talker;
+
+        if(talker == personaje1.talkerName)
+        {
+            personaje1.Hablar();
+            personaje1.Iluminar();
+            personaje2.Oscurecer();
+        }
+        else if(talker == personaje2.talkerName)
+        {
+            personaje2.Hablar();
+            personaje2.Iluminar();
+            personaje1.Oscurecer();
+        }
     }
     public void DesactivarCanvasgroup(CanvasGroup canvasGroup)
     {

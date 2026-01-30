@@ -84,6 +84,10 @@ public class DialogueSystem : MonoBehaviour
             personaje2.Iluminar();
             personaje1.Oscurecer();
         }
+        else{
+            personaje1.Oscurecer();
+            personaje2.Oscurecer();
+        }
     }
     public void DesactivarCanvasgroup(CanvasGroup canvasGroup)
     {

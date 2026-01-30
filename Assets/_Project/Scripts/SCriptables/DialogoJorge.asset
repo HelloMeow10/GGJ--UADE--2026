@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2f927a719ac39ac498e23820c711f5fe, type: 3}
-  m_Name: DialogoHabitacion1
+  m_Name: DialogoJorge
   m_EditorClassIdentifier: 
   Dialogue:
   - text: "Ir\xE9 directamente al punto: \xBFPor qu\xE9 mat\xF3 a su esposa?"
@@ -25,5 +25,23 @@ MonoBehaviour:
       con usted nom\xE1s, no hay motivos para que se alarme. Ahora si le parece comenzar\xE9
       con la primera y m\xE1s esperada pregunta de todas: \xBFD\xF3nde estaba cuando
       escuch\xF3 los disparos?"
+    talker: Detective
+    characterSprite: {fileID: 0}
+  - text: 
+    talker: Jorge
+    characterSprite: {fileID: 0}
+  - text: 
+    talker: Detective
+    characterSprite: {fileID: 0}
+  - text: 
+    talker: Detective
+    characterSprite: {fileID: 0}
+  - text: 
+    talker: Detective
+    characterSprite: {fileID: 0}
+  - text: 
+    talker: Detective
+    characterSprite: {fileID: 0}
+  - text: 
     talker: Detective
     characterSprite: {fileID: 0}

@@ -10,6 +10,7 @@ public class DialogueSystem : MonoBehaviour
     public GameObject zonaDeActor;
     public TMP_Text nombreDelActor;
     public DataDialogue[] dialogos;
+    public CanvasGroup BotonDeContinuar;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -22,11 +23,12 @@ public class DialogueSystem : MonoBehaviour
     {
 
     }
-    public void IniciarDialogo(int numDialogo)
+    public void IniciarDialogo(DataDialogue Dialogo)
     {
         Debug.Log("Dialogo iniciado");
-        dialogoActual = dialogos[numDialogo];
+        dialogoActual = Dialogo;
         lineaActual = 0;
+        ActivarCanvasgroup(BotonDeContinuar);
         zonaDeDialogo.SetActive(true);
         zonaDeActor.SetActive(true);
         MostrarDialogo();
@@ -35,6 +37,7 @@ public class DialogueSystem : MonoBehaviour
     {
         zonaDeDialogo.SetActive(false);
         zonaDeActor.SetActive(false);
+        desactivarCanvasgroup(BotonDeContinuar);
     }
     public void AvanzarDialogo()
     {
@@ -52,6 +55,14 @@ public class DialogueSystem : MonoBehaviour
     public void MostrarDialogo(){
         textoDeDialogo.text = dialogoActual.Dialogue[lineaActual].text;
         nombreDelActor.text = dialogoActual.Dialogue[lineaActual].talker;
+    }
+        public void desactivarCanvasgroup(CanvasGroup canvasGroup){
+        canvasGroup.alpha = 0;
+        canvasGroup.interactable = false;
+    }
+    public void ActivarCanvasgroup(CanvasGroup canvasGroup){
+        canvasGroup.alpha = 1;
+        canvasGroup.interactable = true;
     }
 
 }

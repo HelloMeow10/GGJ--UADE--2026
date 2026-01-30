@@ -4,13 +4,30 @@ using UnityEngine.InputSystem;
 
 public class RoomSystem : MonoBehaviour
 {
-    [SerializeField] private CanvasGroup[] rooms;
+    [SerializeField] private RoomScript habitacionActual;
+    [SerializeField] private CanvasGroup selectorDeHabitacion;
+    [SerializeField] private CanvasGroup botonSalirDeHabitacion;
 
-    public void SetRoom(int index)
+    public void SetRoom(RoomScript room)
     {
-        foreach (var room in rooms)
-            room.alpha = 0;
+        habitacionActual = room;
+        habitacionActual.Entrar();
+        desactivarCanvasgroup(selectorDeHabitacion);
+        ActivarCanvasgroup(botonSalirDeHabitacion);
+    }
+    public void SalirDeLaHabitacion()
+    {
+        habitacionActual.Salir();
+        ActivarCanvasgroup(selectorDeHabitacion);
+        desactivarCanvasgroup(botonSalirDeHabitacion);
+    }
 
-        rooms[index].alpha = 1;
+    public void desactivarCanvasgroup(CanvasGroup canvasGroup){
+        canvasGroup.alpha = 0;
+        canvasGroup.interactable = false;
+    }
+    public void ActivarCanvasgroup(CanvasGroup canvasGroup){
+        canvasGroup.alpha = 1;
+        canvasGroup.interactable = true;
     }
 }

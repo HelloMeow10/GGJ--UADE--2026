@@ -4,23 +4,27 @@ public class RoomScript : MonoBehaviour
 {
     [SerializeField] 
     private CanvasGroup habitacionRenderizada;
-    [SerializeField] 
-    private CanvasGroup pantallaDeDialogo;
     public DataDialogue dialogo;
+    public DialogueSystem sistemaDeDialogo;
     public void Entrar(){
         ActivarCanvasgroup(habitacionRenderizada);
-        ActivarCanvasgroup(pantallaDeDialogo);
+
+        sistemaDeDialogo.dialogoActual = dialogo;
+        sistemaDeDialogo.HabilitarSistema();
     }
     public void Salir(){
-        desactivarCanvasgroup(habitacionRenderizada);
-        desactivarCanvasgroup(pantallaDeDialogo);
+        DesactivarCanvasgroup(habitacionRenderizada);
+
+        sistemaDeDialogo.DeshabilitarSistema();
     }
-    public void desactivarCanvasgroup(CanvasGroup canvasGroup){
+    public void DesactivarCanvasgroup(CanvasGroup canvasGroup){
         canvasGroup.alpha = 0;
         canvasGroup.interactable = false;
+        canvasGroup.blocksRaycasts = false;
     }
     public void ActivarCanvasgroup(CanvasGroup canvasGroup){
         canvasGroup.alpha = 1;
         canvasGroup.interactable = true;
+        canvasGroup.blocksRaycasts = true;
     }
 }

@@ -3,41 +3,46 @@ using TMPro;
 
 public class DialogueSystem : MonoBehaviour
 {
+    [HideInInspector]
     public DataDialogue dialogoActual;
-    public int lineaActual;
-    public GameObject zonaDeDialogo;
-    public TMP_Text textoDeDialogo;
-    public GameObject zonaDeActor;
-    public TMP_Text nombreDelActor;
-    public DataDialogue[] dialogos;
-    public CanvasGroup BotonDeContinuar;
+    private int lineaActual;
+    [SerializeField]
+    private CanvasGroup zonaDeDialogo;
+    [SerializeField]
+    private CanvasGroup BotonDeContinuar;
+    [SerializeField]
+    private CanvasGroup BotonDeIniciar;
+    [SerializeField]
+    private TMP_Text textoDeDialogo;
+    [SerializeField]
+    private TMP_Text nombreDelActor;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public void HabilitarSistema()
     {
-
+        ActivarCanvasgroup(BotonDeIniciar);
     }
-
-    // Update is called once per frame
-    void Update()
+    public void DeshabilitarSistema()
     {
-
+        DesactivarCanvasgroup(BotonDeIniciar);
+        DesactivarCanvasgroup(zonaDeDialogo);
+        DesactivarCanvasgroup(BotonDeContinuar);
     }
-    public void IniciarDialogo(DataDialogue Dialogo)
+    public void IniciarDialogo()
     {
         Debug.Log("Dialogo iniciado");
-        dialogoActual = Dialogo;
         lineaActual = 0;
+
+        DesactivarCanvasgroup(BotonDeIniciar);
         ActivarCanvasgroup(BotonDeContinuar);
-        zonaDeDialogo.SetActive(true);
-        zonaDeActor.SetActive(true);
+        ActivarCanvasgroup(zonaDeDialogo);
+
         MostrarDialogo();
     }
     public void TerminarDialogo()
     {
-        zonaDeDialogo.SetActive(false);
-        zonaDeActor.SetActive(false);
-        desactivarCanvasgroup(BotonDeContinuar);
+        ActivarCanvasgroup(BotonDeIniciar);
+        DesactivarCanvasgroup(zonaDeDialogo);
+        DesactivarCanvasgroup(BotonDeContinuar);
     }
     public void AvanzarDialogo()
     {
@@ -52,17 +57,22 @@ public class DialogueSystem : MonoBehaviour
         }
 
     }
-    public void MostrarDialogo(){
+    public void MostrarDialogo()
+    {
         textoDeDialogo.text = dialogoActual.Dialogue[lineaActual].text;
         nombreDelActor.text = dialogoActual.Dialogue[lineaActual].talker;
     }
-        public void desactivarCanvasgroup(CanvasGroup canvasGroup){
+    public void DesactivarCanvasgroup(CanvasGroup canvasGroup)
+    {
         canvasGroup.alpha = 0;
         canvasGroup.interactable = false;
+        canvasGroup.blocksRaycasts = false;
     }
-    public void ActivarCanvasgroup(CanvasGroup canvasGroup){
+    public void ActivarCanvasgroup(CanvasGroup canvasGroup)
+    {
         canvasGroup.alpha = 1;
         canvasGroup.interactable = true;
+        canvasGroup.blocksRaycasts = true;
     }
 
 }

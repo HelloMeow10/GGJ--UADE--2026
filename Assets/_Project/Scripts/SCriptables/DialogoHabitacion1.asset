@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f927a719ac39ac498e23820c711f5fe, type: 3}
+  m_Name: DialogoHabitacion1
+  m_EditorClassIdentifier: 
+  Dialogue:
+  - text: "Ir\xE9 directamente al punto: \xBFPor qu\xE9 mat\xF3 a su esposa?"
+    talker: Detective
+    characterSprite: {fileID: 0}
+  - text: "\xBFDisculpe? \xBFUsted seriamente piensa que yo ser\xEDa capaz de hacerle
+      algo a mi esposa? Por si no lo recuerda yo fui quien lo llam\xF3 en primer
+      lugar para investigar este crimen."
+    talker: Jorge
+    characterSprite: {fileID: 0}
+  - text: "Tiene raz\xF3n, disculpe mi imprudencia. Quer\xEDa hacer un ejercicio
+      con usted nom\xE1s, no hay motivos para que se alarme. Ahora si le parece comenzar\xE9
+      con la primera y m\xE1s esperada pregunta de todas: \xBFD\xF3nde estaba cuando
+      escuch\xF3 los disparos?"
+    talker: Detective
+    characterSprite: {fileID: 0}

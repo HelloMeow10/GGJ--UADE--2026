@@ -724,58 +724,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 116669812}
   m_CullTransparentMesh: 1
---- !u!1 &254832538
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 254832540}
-  - component: {fileID: 254832539}
-  m_Layer: 0
-  m_Name: SistemaDeDialogo
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &254832539
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 254832538}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee4c347bb5714ba43a3254a73592367c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogoActual: {fileID: 0}
-  lineaActual: 0
-  zonaDeDialogo: {fileID: 1622177540}
-  textoDeDialogo: {fileID: 1940013053}
-  zonaDeActor: {fileID: 885342243}
-  nombreDelActor: {fileID: 2025763860}
-  dialogos:
-  - {fileID: 11400000, guid: 4f9dafe85f0c985498e37fa8ca2ccd54, type: 2}
---- !u!4 &254832540
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 254832538}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1008.07794, y: 577.0232, z: 1.3485307}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &335533787
 GameObject:
   m_ObjectHideFlags: 0
@@ -905,7 +853,7 @@ CanvasGroup:
   m_Enabled: 1
   m_Alpha: 0
   m_Interactable: 0
-  m_BlocksRaycasts: 1
+  m_BlocksRaycasts: 0
   m_IgnoreParentGroups: 0
 --- !u!114 &456107339
 MonoBehaviour:
@@ -920,8 +868,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   habitacionRenderizada: {fileID: 456107338}
-  pantallaDeDialogo: {fileID: 1731913992}
-  dialogo: {fileID: 0}
+  dialogo: {fileID: 11400000, guid: 4f9dafe85f0c985498e37fa8ca2ccd54, type: 2}
+  sistemaDeDialogo: {fileID: 1731913993}
 --- !u!1 &462201285
 GameObject:
   m_ObjectHideFlags: 0
@@ -1355,7 +1303,7 @@ CanvasGroup:
   m_Enabled: 1
   m_Alpha: 0
   m_Interactable: 0
-  m_BlocksRaycasts: 1
+  m_BlocksRaycasts: 0
   m_IgnoreParentGroups: 0
 --- !u!1 &820683292
 GameObject:
@@ -1479,7 +1427,7 @@ CanvasGroup:
   m_Enabled: 1
   m_Alpha: 0
   m_Interactable: 0
-  m_BlocksRaycasts: 1
+  m_BlocksRaycasts: 0
   m_IgnoreParentGroups: 0
 --- !u!1 &885342243
 GameObject:
@@ -1498,7 +1446,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &885342244
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1512,12 +1460,12 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2025763862}
-  m_Father: {fileID: 1731913990}
+  m_Father: {fileID: 1622177541}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -4}
-  m_SizeDelta: {x: 220, y: -18.52539}
+  m_AnchoredPosition: {x: 0, y: 210.02344}
+  m_SizeDelta: {x: -800, y: -257.0923}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &885342245
 MonoBehaviour:
@@ -1835,13 +1783,14 @@ GameObject:
   - component: {fileID: 1145401790}
   - component: {fileID: 1145401789}
   - component: {fileID: 1145401788}
+  - component: {fileID: 1145401791}
   m_Layer: 5
   m_Name: BotonDeContinuarDialogo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1145401787
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1906,7 +1855,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 254832539}
+      - m_Target: {fileID: 1731913993}
         m_TargetAssemblyTypeName: DialogueSystem, Assembly-CSharp
         m_MethodName: AvanzarDialogo
         m_Mode: 1
@@ -1956,6 +1905,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1145401786}
   m_CullTransparentMesh: 1
+--- !u!225 &1145401791
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1145401786}
+  m_Enabled: 1
+  m_Alpha: 0
+  m_Interactable: 0
+  m_BlocksRaycasts: 0
+  m_IgnoreParentGroups: 0
 --- !u!1 &1179310063
 GameObject:
   m_ObjectHideFlags: 0
@@ -2720,13 +2681,14 @@ GameObject:
   - component: {fileID: 1622177541}
   - component: {fileID: 1622177543}
   - component: {fileID: 1622177542}
+  - component: {fileID: 1622177544}
   m_Layer: 5
   m_Name: dialogePanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1622177541
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2740,6 +2702,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1940013051}
+  - {fileID: 885342244}
   m_Father: {fileID: 1731913990}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -2785,6 +2748,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1622177540}
   m_CullTransparentMesh: 1
+--- !u!225 &1622177544
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1622177540}
+  m_Enabled: 1
+  m_Alpha: 0
+  m_Interactable: 0
+  m_BlocksRaycasts: 0
+  m_IgnoreParentGroups: 0
 --- !u!1 &1731913989
 GameObject:
   m_ObjectHideFlags: 0
@@ -2795,7 +2770,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1731913990}
   - component: {fileID: 1731913991}
-  - component: {fileID: 1731913992}
+  - component: {fileID: 1731913993}
   m_Layer: 5
   m_Name: PantallaDeDialogos
   m_TagString: Untagged
@@ -2817,7 +2792,6 @@ RectTransform:
   m_Children:
   - {fileID: 1894997760}
   - {fileID: 1145401787}
-  - {fileID: 885342244}
   - {fileID: 1622177541}
   m_Father: {fileID: 1964351397}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2834,18 +2808,24 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1731913989}
   m_CullTransparentMesh: 1
---- !u!225 &1731913992
-CanvasGroup:
+--- !u!114 &1731913993
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1731913989}
   m_Enabled: 1
-  m_Alpha: 0
-  m_Interactable: 0
-  m_BlocksRaycasts: 1
-  m_IgnoreParentGroups: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee4c347bb5714ba43a3254a73592367c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogoActual: {fileID: 0}
+  zonaDeDialogo: {fileID: 1622177544}
+  BotonDeContinuar: {fileID: 1145401791}
+  BotonDeIniciar: {fileID: 1894997764}
+  textoDeDialogo: {fileID: 1940013053}
+  nombreDelActor: {fileID: 2025763860}
 --- !u!1 &1864758520
 GameObject:
   m_ObjectHideFlags: 0
@@ -2994,6 +2974,7 @@ GameObject:
   - component: {fileID: 1894997763}
   - component: {fileID: 1894997762}
   - component: {fileID: 1894997761}
+  - component: {fileID: 1894997764}
   m_Layer: 5
   m_Name: BotonDeIniciarDialogo
   m_TagString: Untagged
@@ -3065,10 +3046,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 254832539}
+      - m_Target: {fileID: 1731913993}
         m_TargetAssemblyTypeName: DialogueSystem, Assembly-CSharp
         m_MethodName: IniciarDialogo
-        m_Mode: 3
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -3115,6 +3096,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1894997759}
   m_CullTransparentMesh: 1
+--- !u!225 &1894997764
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1894997759}
+  m_Enabled: 1
+  m_Alpha: 0
+  m_Interactable: 0
+  m_BlocksRaycasts: 0
+  m_IgnoreParentGroups: 0
 --- !u!1 &1940013050
 GameObject:
   m_ObjectHideFlags: 0
@@ -3544,7 +3537,7 @@ CanvasGroup:
   m_Enabled: 1
   m_Alpha: 0
   m_Interactable: 0
-  m_BlocksRaycasts: 1
+  m_BlocksRaycasts: 0
   m_IgnoreParentGroups: 0
 --- !u!114 &2085654419
 MonoBehaviour:
@@ -3723,4 +3716,3 @@ SceneRoots:
   - {fileID: 462201287}
   - {fileID: 1964351397}
   - {fileID: 335533790}
-  - {fileID: 254832540}

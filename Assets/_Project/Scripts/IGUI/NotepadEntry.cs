@@ -6,6 +6,7 @@ public class NotepadEntry : MonoBehaviour, INotepadEntry
 {
     [Header("References")]
     [SerializeField] private TextMeshProUGUI _entryText;
+    [SerializeField] private Button _assignButton;
     [SerializeField] private Button _modifyButton;
     [SerializeField] private Button _deleteButton;
 
@@ -13,6 +14,7 @@ public class NotepadEntry : MonoBehaviour, INotepadEntry
 
     protected void Awake()
     {
+        _assignButton.onClick.AddListener(OnAssignButtonPressed);
         _modifyButton.onClick.AddListener(OnModifyButtonPressed);
         _deleteButton.onClick.AddListener(OnDeleteButtonPressed);   
     }
@@ -39,6 +41,11 @@ public class NotepadEntry : MonoBehaviour, INotepadEntry
     public void OnModifyButtonPressed()
     {
         ControllerNotepad.OnModifyNotepadEntryRequest?.Invoke(this);
+    }
+
+    public void OnAssignButtonPressed()
+    {
+        ControllerNotepad.OnAssignNotepadEntryToAssassinRequest?.Invoke(this);
     }
 
     public void SetText(string text)

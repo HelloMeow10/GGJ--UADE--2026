@@ -6,6 +6,8 @@ public interface INotepadEntry
     string GetText();
     
     void SetText(string text);
+
+    void OnAssignButtonPressed();
     void OnModifyButtonPressed();
     void OnDeleteButtonPressed();
 }

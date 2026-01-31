@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
   m_Name: DialogueJorge Shared Data
   m_EditorClassIdentifier: 
-  m_TableCollectionName: DialogueJuan
+  m_TableCollectionName: DialogueJorge
   m_TableCollectionNameGuidString: 189bbc61f96b7244fb603b7dad510bfc
   m_Entries:
   - m_Id: 102564909056
@@ -141,6 +141,10 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 113768326647808
     m_Key: Linea32
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145308704198656
+    m_Key: Linea33
     m_Metadata:
       m_Items: []
   m_Metadata:

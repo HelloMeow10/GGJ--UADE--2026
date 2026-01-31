@@ -20,6 +20,16 @@ MonoBehaviour:
     m_ReadOnly: 1
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9b6a3b69669a35945abb8f99f2103071
+    m_Address: Assets/_Project/Localization/DialogueRoberto Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d25b2793c538cf04d9025d1f686d02e1
+    m_Address: Assets/_Project/Localization/New Table Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: af7e07ddfc81d1348bd8c2027a06e372, type: 2}
   m_SchemaSet:

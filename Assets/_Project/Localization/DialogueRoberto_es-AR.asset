@@ -17,7 +17,180 @@ MonoBehaviour:
   m_SharedData: {fileID: 11400000, guid: 9b6a3b69669a35945abb8f99f2103071, type: 2}
   m_Metadata:
     m_Items: []
-  m_TableData: []
+  m_TableData:
+  - m_Id: 12254859264
+    m_Localized: "(\u2018\u2018Esta familia contiene muchos secretos\u2019\u2019,
+      pens\xF3 Otto. Celos por todos lados, un embarazo que la v\xEDctima no deseaba,
+      un esposo que pasa de fr\xEDo a atento en un segundo, un primo que responde
+      demasiado con las palabras \u2018\u2018no s\xE9\u2019\u2019 a cada pregunta
+      que le hago sobre la que se supone era su mejor amiga, y ahora un hermano que
+      siempre estuvo enamorado de su cu\xF1ada. \r\nEste acto de la familia perfecta
+      termin\xF3 en el momento en que alguno de ellos dej\xF3 de jugar el papel trayendo
+      consigo las peores consecuencias de guardar secretos durante mucho tiempo.
+      \r\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27540520587264
+    m_Localized: "Era el turno de interrogar a Roberto, el hermano de Jorge, el primo
+      de Juan, el admirador secreto de Juanita. Cuando Otto ingres\xF3 en la cocina
+      entendi\xF3 perfectamente a lo que se enfrentaba, una estatua de piedra que
+      no dir\xEDa nada, al menos no de utilidad. Cara serena, ojos penetrantes. Un
+      pelaje gris y misterioso como su ser se exhib\xEDa. Desplazaba las palabras
+      fuera de su boca con quietud, como si el tiempo fuera por detr\xE1s de \xE9l.\r\nSobre
+      la isla de m\xE1rmol blanco, que representaba el abismo entre Otto y su fuente
+      de la verdad, hab\xEDa una caja de zapatos vac\xEDa. Roberto no le sacaba los
+      ojos de encima. Parec\xEDa petrificado cuando Otto la deposit\xF3 frente a
+      \xE9l.\r\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27687002460160
+    m_Localized: "Sobre la mesada detr\xE1s del sospechoso pueden observarse juegos
+      de cubiertos ba\xF1ados en plata, reflectores de la luz blanca que ca\xEDa
+      del techo como una cascada. \u2018\u2018Todas son potenciales armas\u2019\u2019.
+      El detective ya no cre\xEDa en las casualidades, la habitaci\xF3n fue elegida
+      por Roberto para ser interrogado. \u2018\u2018Necesito un vaso de agua\u2019\u2019,
+      argument\xF3 el sospechoso.)\r\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27885820858368
+    m_Localized: "Reconoce la caja, \xBFno es as\xED?\r\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28168856686592
+    m_Localized: '.................................
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28304496283648
+    m_Localized: Si.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28763000819712
+    m_Localized: "Es una caja demasiado chica para ser de zapatos de su proveniencia.
+      \xBFTiene hijos Roberto?\r\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28863261462528
+    m_Localized: ............................
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28920169779200
+    m_Localized: No.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29269538525184
+    m_Localized: "Cuando sub\xED a su cuarto a buscarlo la encontr\xE9 abierta asom\xE1ndose
+      por debajo de su cama. \xBFUsted la abri\xF3 hoy por casualidad?\r\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29493749239808
+    m_Localized: No.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29699706343424
+    m_Localized: "\xBFUsted la not\xF3 cuando subi\xF3 a su cuarto tras la cena?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29881638473728
+    m_Localized: No.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30450490953728
+    m_Localized: "\xBFSubi\xF3 a su cuarto tras la cena?\r\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30546154639360
+    m_Localized: Si.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30675876073472
+    m_Localized: "\xBFPor qu\xE9?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30866297475072
+    m_Localized: 'Necesitaba cargar mi celular.
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30980252520448
+    m_Localized: "\xBFEsperaba la llamada de alguien, deb\xEDa salir a alg\xFAn lado?
+      Digo, es su casa, \xBFno pod\xEDa cargarlo cuando la gente se fuera?\r\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31116655480832
+    m_Localized: "Decid\xED aprovechar el tiempo muerto.\r\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31234628669440
+    m_Localized: "\xBFPor qu\xE9 hubo tiempo muerto?\r\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31335027724288
+    m_Localized: "Juana y Jorge se retiraron de la mesa porque Juana se sent\xEDa
+      mal."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31566591053824
+    m_Localized: "Cu\xE1ndo subi\xF3, \xBFsu placard estaba abierto o cerrado?\r\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31704696901632
+    m_Localized: 'No recuerdo.
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31831603957760
+    m_Localized: "\xBFNo recuerda haber visto desorden en su habitaci\xF3n?\r\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31967436492800
+    m_Localized: No.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32091424313344
+    m_Localized: "\xBFLa puerta estaba abierta o cerrada?\r\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32286509780992
+    m_Localized: "\xBFDe qu\xE9?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32479951081472
+    m_Localized: 'De su cuarto.
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32624306442240
+    m_Localized: 'Cerrada. Yo siempre dejo la puerta de mi cuarto cerrada cuando
+      hay invitados.
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32776211550208
+    m_Localized: "\xBFCon llave?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33046295367680
+    m_Localized: 'No.
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33154781040640
+    m_Localized: "\xBFUsted escuch\xF3 agua corriendo del ba\xF1o d\xF3nde se encontraba
+      Juanita?\r\n\r\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33314365919232
+    m_Localized: "No. La casa es grande, mi habitaci\xF3n y ese ba\xF1o est\xE1n
+      en extremos separados, no escuch\xE9 nada de lo que pas\xF3 hasta el disparo.\r\n"
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

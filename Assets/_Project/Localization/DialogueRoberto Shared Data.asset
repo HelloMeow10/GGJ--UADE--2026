@@ -13,8 +13,144 @@ MonoBehaviour:
   m_Name: DialogueRoberto Shared Data
   m_EditorClassIdentifier: 
   m_TableCollectionName: DialogueRoberto
-  m_TableCollectionNameGuidString: 00000000000000000000000000000000
-  m_Entries: []
+  m_TableCollectionNameGuidString: 9b6a3b69669a35945abb8f99f2103071
+  m_Entries:
+  - m_Id: 12254859264
+    m_Key: RobertoLinea00
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27540520587264
+    m_Key: RobertoLinea01
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27687002460160
+    m_Key: RobertoLinea02
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27885820858368
+    m_Key: RobertoLinea03
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28168856686592
+    m_Key: RobertoLinea04
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28304496283648
+    m_Key: RobertoLinea05
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28763000819712
+    m_Key: RobertoLinea06
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28863261462528
+    m_Key: RobertoLinea07
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28920169779200
+    m_Key: RobertoLinea08
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29269538525184
+    m_Key: RobertoLinea09
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29493749239808
+    m_Key: RobertoLinea10
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29699706343424
+    m_Key: RobertoLinea11
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29881638473728
+    m_Key: RobertoLinea12
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30450490953728
+    m_Key: RobertoLinea13
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30546154639360
+    m_Key: RobertoLinea14
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30675876073472
+    m_Key: RobertoLinea15
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30866297475072
+    m_Key: RobertoLinea16
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30980252520448
+    m_Key: RobertoLinea17
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31116655480832
+    m_Key: RobertoLinea18
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31234628669440
+    m_Key: RobertoLinea19
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31335027724288
+    m_Key: RobertoLinea20
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31566591053824
+    m_Key: RobertoLinea21
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31704696901632
+    m_Key: RobertoLinea22
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31831603957760
+    m_Key: RobertoLinea23
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31967436492800
+    m_Key: RobertoLinea24
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32091424313344
+    m_Key: RobertoLinea25
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32286509780992
+    m_Key: RobertoLinea26
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32479951081472
+    m_Key: RobertoLinea27
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32624306442240
+    m_Key: RobertoLinea28
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32776211550208
+    m_Key: RobertoLinea29
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33046295367680
+    m_Key: RobertoLinea30
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33154781040640
+    m_Key: RobertoLinea31
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33314365919232
+    m_Key: RobertoLinea32
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33446977228800
+    m_Key: RobertoLinea33
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

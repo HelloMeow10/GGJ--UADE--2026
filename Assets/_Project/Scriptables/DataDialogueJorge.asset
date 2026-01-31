@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f927a719ac39ac498e23820c711f5fe, type: 3}
   m_Name: DataDialogueJorge
   m_EditorClassIdentifier: 
-  Character: 0
+  Character: 1
   Dialogue:
   - Line:
       m_TableReference:

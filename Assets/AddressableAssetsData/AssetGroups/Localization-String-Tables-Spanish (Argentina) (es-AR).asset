@@ -15,8 +15,20 @@ MonoBehaviour:
   m_GroupName: Localization-String-Tables-Spanish (Argentina) (es-AR)
   m_GUID: 650463ee6d3e7ec45aad74c823cb89ab
   m_SerializeEntries:
+  - m_GUID: 5305bebc0bea74a4787b2da05c3995a3
+    m_Address: Dialogo Juan_es-AR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-es-AR
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: a768ccdf01a0cf6488f5480d34af73f3
     m_Address: DialogueJorge_es-AR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-es-AR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f34562a2741a1d648906e2e05c1b993e
+    m_Address: DialogueRoberto_es-AR
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-es-AR

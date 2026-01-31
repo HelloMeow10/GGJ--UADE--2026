@@ -3,8 +3,6 @@ using UnityEngine;
 
 public class ControllerIGUI : MonoBehaviour
 {
-    public IGUITab CurrentTab = IGUITab.ChatSelector;
-
     [Header("References")]
     [SerializeField] private BaseTabController _tabTalkSelection;
     [SerializeField] private BaseTabController _tabNotepad;
@@ -29,11 +27,12 @@ public class ControllerIGUI : MonoBehaviour
         Debug.Log("<color=green>ControllerIGUI</color>: Changing tab to " + newTab);
         #endif
 
-        CurrentTab = newTab;
         _tabNotepad.HideOrShowTab(newTab == IGUITab.Notepad);
         _tabAssassinSelector.HideOrShowTab(newTab == IGUITab.AssassinSelector);
         _tabTalkSelection.HideOrShowTab(newTab == IGUITab.ChatSelector);
         _tabDialogue.HideOrShowTab(newTab == IGUITab.Dialogue);
+
+        GameManager.CurrentIGUITab = newTab;
 
         // Just in case, always force refresh size fitter.
         AssassinEntry.OnForceRefresh?.Invoke();

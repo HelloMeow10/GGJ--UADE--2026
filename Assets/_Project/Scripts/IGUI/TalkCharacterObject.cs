@@ -5,7 +5,6 @@ public class TalkCharacterObject : MonoBehaviour
 {
     [Header("Settings")]
     [SerializeField] private Assassin _character;
-    [SerializeField] private DataDialogue _dialogue;
 
     [Header("References")]
     [SerializeField] private Button _selfButton;
@@ -22,18 +21,8 @@ public class TalkCharacterObject : MonoBehaviour
 
     private void OnSelected()
     {
-        if (_dialogue == null)
-        {
-            Debug.LogWarning($"[TalkCharacterObject] Dialogue data is null for character {_character}");
-            return;
-        }
-
-        #if UNITY_EDITOR
-        Debug.Log($"[TalkCharacterObject] Selected character {_character} to start dialogue {_dialogue.Character}");
-        #endif
-
         GameManager.IsInDialogueMode = true;
-        GameManager.OnDialogueStart?.Invoke(_dialogue);
+        GameManager.OnDialogueStart?.Invoke(_character);
         ControllerIGUI.OnTabChange?.Invoke(IGUITab.Dialogue);
     }
 }

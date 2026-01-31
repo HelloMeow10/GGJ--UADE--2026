@@ -7,6 +7,7 @@ using UnityEngine.Localization;
 public class DataDialogue : ScriptableObject
 {
     public Assassin Character;
+    public string CharacterName;
     public List<DialogueLine> Dialogue = new();
 }
 

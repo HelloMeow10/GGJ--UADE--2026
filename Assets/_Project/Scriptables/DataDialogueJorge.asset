@@ -12,13 +12,84 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f927a719ac39ac498e23820c711f5fe, type: 3}
   m_Name: DataDialogueJorge
   m_EditorClassIdentifier: 
-  Character: 1
+  Character: 0
+  CharacterName: Jorge
   Dialogue:
   - Line:
       m_TableReference:
         m_TableCollectionName: GUID:189bbc61f96b7244fb603b7dad510bfc
       m_TableEntryReference:
+        m_KeyId: 173375101620224
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Talker: 2
+  - Line:
+      m_TableReference:
+        m_TableCollectionName: GUID:189bbc61f96b7244fb603b7dad510bfc
+      m_TableEntryReference:
         m_KeyId: 102564909056
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Talker: 1
+  - Line:
+      m_TableReference:
+        m_TableCollectionName: GUID:189bbc61f96b7244fb603b7dad510bfc
+      m_TableEntryReference:
+        m_KeyId: 100671264280576
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Talker: 0
+  - Line:
+      m_TableReference:
+        m_TableCollectionName: GUID:189bbc61f96b7244fb603b7dad510bfc
+      m_TableEntryReference:
+        m_KeyId: 100913556639744
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Talker: 1
+  - Line:
+      m_TableReference:
+        m_TableCollectionName: GUID:189bbc61f96b7244fb603b7dad510bfc
+      m_TableEntryReference:
+        m_KeyId: 101165659475968
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Talker: 0
+  - Line:
+      m_TableReference:
+        m_TableCollectionName: GUID:189bbc61f96b7244fb603b7dad510bfc
+      m_TableEntryReference:
+        m_KeyId: 101729558482944
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Talker: 1
+  - Line:
+      m_TableReference:
+        m_TableCollectionName: GUID:189bbc61f96b7244fb603b7dad510bfc
+      m_TableEntryReference:
+        m_KeyId: 102250272935936
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Talker: 0
+  - Line:
+      m_TableReference:
+        m_TableCollectionName: GUID:0282fb2867b92364091af83f4c6a4f15
+      m_TableEntryReference:
+        m_KeyId: 34414425296896
         m_Key: 
       m_FallbackState: 0
       m_WaitForCompletion: 0

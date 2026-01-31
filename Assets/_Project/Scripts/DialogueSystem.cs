@@ -67,8 +67,8 @@ public class DialogueSystem : MonoBehaviour
     }
     public void MostrarDialogo()
     {
-        string talker = dialogoActual.Dialogue[lineaActual].talker;
-        string text = dialogoActual.Dialogue[lineaActual].text;
+        string talker = dialogoActual.Dialogue[lineaActual].Talker.ToString();
+        string text = dialogoActual.Dialogue[lineaActual].Line.GetLocalizedString();
         textoDeDialogo.text = text;
         nombreDelActor.text = talker;
 

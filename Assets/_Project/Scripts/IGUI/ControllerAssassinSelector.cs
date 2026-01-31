@@ -26,4 +26,9 @@ public class ControllerAssassinSelector : BaseTabController
         OnAssassinSelected -= OnAssassinFirstSelected;
         _confirmAssassinButton.interactable = true;
     }
+
+    public override void OnExitTab()
+    {
+        ControllerIGUI.OnTabChange?.Invoke(GameManager.IsInDialogueMode ? IGUITab.Dialogue : IGUITab.ChatSelector);
+    }
 }

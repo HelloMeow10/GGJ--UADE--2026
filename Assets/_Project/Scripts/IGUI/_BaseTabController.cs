@@ -19,10 +19,7 @@ public class BaseTabController : MonoBehaviour
         if (_exitButton == null)
             return;
         
-        _exitButton.onClick.AddListener(() =>
-        {
-            ControllerIGUI.OnTabChange?.Invoke(IGUITab.ChatSelector);
-        });
+        _exitButton.onClick.AddListener(OnExitTab);
     }
 
     protected virtual void OnDestroy()
@@ -30,6 +27,11 @@ public class BaseTabController : MonoBehaviour
         if (_exitButton == null)
             return;
             
-        _exitButton.onClick.RemoveAllListeners();
+        _exitButton.onClick.RemoveListener(OnExitTab);
+    }
+
+    public virtual void OnExitTab()
+    {
+        ControllerIGUI.OnTabChange?.Invoke(IGUITab.ChatSelector);
     }
 }

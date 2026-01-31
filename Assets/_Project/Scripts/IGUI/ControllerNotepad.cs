@@ -191,4 +191,9 @@ public class ControllerNotepad : BaseTabController
         if (!isActive)
             _assignNoteToAssassinText.text = string.Empty;
     }
+
+    public override void OnExitTab()
+    {
+        ControllerIGUI.OnTabChange?.Invoke(GameManager.IsInDialogueMode ? IGUITab.Dialogue : IGUITab.ChatSelector);
+    }
 }

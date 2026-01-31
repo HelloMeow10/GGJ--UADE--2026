@@ -9,7 +9,8 @@ public class ControllerIGUI : MonoBehaviour
     [SerializeField] private BaseTabController _tabTalkSelection;
     [SerializeField] private BaseTabController _tabNotepad;
     [SerializeField] private BaseTabController _tabAssassinSelector;
-    
+    [SerializeField] private BaseTabController _tabDialogue;
+
     public static Action<IGUITab> OnTabChange;
 
     protected void Awake()
@@ -32,6 +33,7 @@ public class ControllerIGUI : MonoBehaviour
         _tabNotepad.HideOrShowTab(newTab == IGUITab.Notepad);
         _tabAssassinSelector.HideOrShowTab(newTab == IGUITab.AssassinSelector);
         _tabTalkSelection.HideOrShowTab(newTab == IGUITab.ChatSelector);
+        _tabDialogue.HideOrShowTab(newTab == IGUITab.Dialogue);
 
         // Just in case, always force refresh size fitter.
         AssassinEntry.OnForceRefresh?.Invoke();

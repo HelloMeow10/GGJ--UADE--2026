@@ -19,7 +19,169 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 102564909056
-    m_Localized: 
+    m_Localized: " Ir\xE9 directamente al punto: \xBFPor qu\xE9 mat\xF3 a su esposa?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100671264280576
+    m_Localized: "\xBFDisculpe? \xBFUsted seriamente piensa que yo ser\xEDa capaz
+      de hacerle algo a mi esposa? Por si no lo recuerda yo fui quien lo llam\xF3
+      en primer lugar para investigar este crimen. No intente jugar al detective
+      malo conmigo, pr\xE1cticamente est\xE1 trabajando para m\xED."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100913556639744
+    m_Localized: "Tiene raz\xF3n, disculpe mi imprudencia. Quer\xEDa hacer un ejercicio
+      con usted nom\xE1s, no hay motivos para que se alarme. Ahora si le parece comenzar\xE9
+      con la primera y m\xE1s esperada pregunta de todas: \xBFD\xF3nde estaba cuando
+      escuch\xF3 los disparos?\r\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101165659475968
+    m_Localized: "Estaba en el jard\xEDn, fumando como Dios manda. "
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101729558482944
+    m_Localized: "\xBFEn el trasero o el delantero?\r\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 102250272935936
+    m_Localized: Delantero.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 102442682437632
+    m_Localized: "\xBFSe alej\xF3 mucho de la puerta cuando sali\xF3, o siempre se
+      mantuvo en los escalones de piedra?\r\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 102623507271680
+    m_Localized: "Camin\xE9 unos pasos hacia la rotonda para ver las flores, pensaba
+      llevarle una a mi esposa m\xE1s tarde"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 103162374672384
+    m_Localized: "\xBFPero qu\xE9 importancia tiene si estuve lejos o no de la puerta
+      detective? \xBFNo ser\xE1 un crimen mover las patas verdad? (Un intento de
+      sonrisa divertida se dibuj\xF3 en su expresi\xF3n, \xFAnicamente para ser borrada
+      en una fracci\xF3n de segundo)\r\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 104127668572160
+    m_Localized: Solo intento armar un escenario.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 104769267060736
+    m_Localized: "Pude notar que el camino es de tierra, \xBFno pens\xF3 en asfaltar?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105651295637504
+    m_Localized: "Me encantar\xEDa tener esa potestad se\xF1or, pero la casa es de
+      mi hermano. \xBFPor qu\xE9 me habla de esto de todos modos?\r\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105743368998912
+    m_Localized: Odio conducir un auto nuevo en tierra, solo era un comentario.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 106095308853248
+    m_Localized: "(Jorge lo fulmin\xF3 con la mirada. Lo tomaba como un insulto a
+      su esencia)\r\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 106493000175616
+    m_Localized: "\xBFSol\xEDa regalarle flores a su esposa?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 107017569193984
+    m_Localized: "Hace muchos a\xF1os, los primeros de nuestra relaci\xF3n, s\xED.
+      Luego podr\xEDa decirse que perdi\xF3 cierto valor ese gesto."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 107395576647680
+    m_Localized: "\xBFPor qu\xE9 volver a valorar ese gesto entonces?\r\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 107632106033152
+    m_Localized: "Porque ella se ven\xEDa sintiendo mal desde la cena, pens\xE9 que
+      una flor podr\xEDa hacerla sentir mejor. \r\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 108997570088960
+    m_Localized: "\xBFEntonces se consideraba un esposo atento?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 109366090027008
+    m_Localized: "Nunca dije que no, solo que las flores ya no me significaban lo
+      mismo. Pero por la ocasi\xF3n, y luego de muchos a\xF1os pens\xE9 que no vendr\xEDan
+      mal. Sabe, conservar el matrimonio no es tarea f\xE1cil detective si sabe de
+      lo que hablo. (Le dirige una mirada divertida, buscando complicidad; es completamente
+      ignorado)\r\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 110011756990464
+    m_Localized: "Dijo que su esposa se sent\xEDa mal desde la cena, \xBFquiere contarme
+      que pas\xF3 desde entonces?\r\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 110273494142976
+    m_Localized: "Por supuesto. Parece que la comida le hab\xEDa ca\xEDdo mal, retorcijones
+      en la panza principalmente. Aguant\xF3 el dolor lo m\xE1s que pudo, incluso
+      lleg\xF3 a brindar con nosotros una copa de champagne a la medianoche. Sin
+      embargo, ese trago termin\xF3 por someterla. Con permiso abandon\xF3 la mesa
+      y subi\xF3 al ba\xF1o del primer piso. Luego de una hora sin que regresara
+      hice lo que cualquier esposo har\xEDa y sub\xED a verificar que todo estuviera
+      bien."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 110918125113344
+    m_Localized: "No llegu\xE9 a abrir la puerta cuando ella me detuvo. Pude escuchar
+      que corr\xEDa agua. Le pregunt\xE9 si se encontraba bien, a lo que ella me
+      respondi\xF3 textualmente: \u2018\u2018Si cielo\u2019\u2019. Frente a esa respuesta
+      decid\xED bajar nuevamente y salir a fumar un rato para calmar las aguas, pero
+      ni bien baj\xE9 las escaleras me dirig\xED directamente a la puerta del frente,
+      sin pasar por el comedor donde mi hermano y mi primo se supone segu\xEDan bebiendo.
+      \r\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 111047313870848
+    m_Localized: "Entonces escuch\xF3 los disparos y subi\xF3 inmediatamente para
+      encontrar a su esposa muerta.\r\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 111179790962688
+    m_Localized: 'Exactamente.
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 111615340072960
+    m_Localized: "(El detective pudo notar que en la mesita de luz del cuarto de
+      invitados hab\xEDa un botiqu\xEDn abierto, probablemente extra\xEDdo del ba\xF1o
+      si esa familia ordenaba con la l\xF3gica general)."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 112550497898496
+    m_Localized: "\xBFEst\xE1 herido?\r\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 112803389263872
+    m_Localized: (Jorge nota lo mismo que el detective)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113319330598912
+    m_Localized: "Claro, revisando las flores me cort\xE9 con las espinas de los
+      tallos. Ahora mismo estoy haciendo presi\xF3n para que pare la sangre."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113464017309696
+    m_Localized: "(Intenta re\xEDr torpemente, sin \xE9xito)\r\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113659002114048
+    m_Localized: "Eso es todo, aguarde en esta habitaci\xF3n por favor."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113768326647808
+    m_Localized: Puede contar con eso agente
     m_Metadata:
       m_Items: []
   references:

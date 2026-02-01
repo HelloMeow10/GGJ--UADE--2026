@@ -13,18 +13,30 @@ public class ControllerAssassinSelector : BaseTabController
     {
         base.Awake();
         OnAssassinSelected += OnAssassinFirstSelected;
+        _confirmAssassinButton.onClick.AddListener(OnConfirmAssassinButtonPressed);
     }
 
     protected override void OnDestroy()
     {
         base.OnDestroy();
         OnAssassinSelected -= OnAssassinFirstSelected;
+        _confirmAssassinButton.onClick.RemoveListener(OnConfirmAssassinButtonPressed);
     }
 
     private void OnAssassinFirstSelected(Assassin character)
     {
         OnAssassinSelected -= OnAssassinFirstSelected;
         _confirmAssassinButton.interactable = true;
+    }
+
+    private void OnConfirmAssassinButtonPressed()
+    {
+        _confirmAssassinButton.interactable = false;
+        GameManager.OnAssassinConfirmed?.Invoke();
+        
+        #if UNITY_EDITOR
+        Debug.Log($"<color=green>Assassin {GameManager.SelectedAssassin} confirmed.</color>");
+        #endif
     }
 
     public override void OnExitTab()

@@ -22,4 +22,5 @@ public class GameManager : MonoBehaviour
 
     public static Action<Assassin> OnDialogueStart;
     public static Action OnDialogueEnd;
+    public static Action OnAssassinConfirmed;
 }

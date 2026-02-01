@@ -17,7 +17,336 @@ MonoBehaviour:
   m_SharedData: {fileID: 11400000, guid: d25b2793c538cf04d9025d1f686d02e1, type: 2}
   m_Metadata:
     m_Items: []
-  m_TableData: []
+  m_TableData:
+  - m_Id: 162738480893952
+    m_Localized: This particular feline was none other than Jorge's cousin.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 162790892916736
+    m_Localized: "They were those cousins \u200B\u200Bwho, from the moment their
+      mothers introduced them, were never separated again."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 162801282207744
+    m_Localized: And it was until tonight that they continued to look for excuses
+      to get together as a family and share the stories they had built since the
+      last time they saw each other.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 162810278989824
+    m_Localized: Of course, their relationship was never perfect; as with all cousins,
+      competitiveness and jealousy were always present.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 162817770016768
+    m_Localized: As puppies, disputes might be expressed by seeing who was faster
+      or who could climb the highest trees; as teenagers, who could hunt the most
+      birds.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 163226332975104
+    m_Localized: And as adults, who arrived at dinner with a better car or a better
+      wife; and Juan had recently lost his.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 163234264403968
+    m_Localized: It had been since evil took her away, but he remained dormant, as
+      if his true self were hidden deep within his subconscious.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 163245157011456
+    m_Localized: It was just an empty vessel, one that no longer told the anecdotes
+      of the past or made the same old jokes every year.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 163252639649792
+    m_Localized: His gray goatee was still like that, his green eyes too, but Juan,
+      even if he tried as he did during that dinner, was gone.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 163260902428672
+    m_Localized: Otto sits at the other end of the dining room table to question
+      Juan, who may be subdued but is still imposing.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 163389915025408
+    m_Localized: The cupboards with the vases and plates seem to loom dangerously
+      over their heads, the wallpaper seems to be melting in sections,
+    m_Metadata:
+      m_Items: []
+  - m_Id: 163397552852992
+    m_Localized: The chandelier hanging above their heads exhales its last remaining
+      flickers of light. The detective understands that the atmosphere has changed.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 163401701019648
+    m_Localized: Something big is being hidden this time.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 169000979419136
+    m_Localized: How does he get along with his cousin?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 169055106912256
+    m_Localized: Well, we've been friends since we were puppies. We've never had
+      any serious arguments or fights that required time to heal. Of course, there
+      have been disagreements, like in any family, but I'd say we have a good relationship.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 169055715086336
+    m_Localized: You seem distracted, sir, or perhaps your relationship with your
+      cousin wasn't the wonderful one you expected, considering you're just getting
+      together for a meal and a drink on a random evening. I have to admit, I'm surprised
+      you're so willing to see your cousin among such a small group of people who
+      could have eased any tension between you.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 169056230985728
+    m_Localized: "I personally would need a crowd to see someone I clearly don't
+      want to be with. But if you planned something special for tonight, it would
+      make sense\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 169056788828160
+    m_Localized: WHAT ARE YOU IMPLYING?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 169057287950336
+    m_Localized: AM I TO BLAME FOR JUANITA'S DEATH? AM I SO HEARTLESS AS TO HURT
+      SOMEONE?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 169057766100992
+    m_Localized: I'm just exploring possibilities, Juan. My job is to solve this
+      crime, and I started with a blank sheet of paper. If you're on my team, you'll
+      understand.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 169058168754176
+    m_Localized: "I understand, but you can't expect me to be in a good mood, Detective.
+      Please excuse me if I don't greet you with a smile, but my cousin's wife was
+      found brutally murdered\u2014the wife of MY cousin, who was always a friend
+      to me, more than that..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 169058571407360
+    m_Localized: "A brother. Forgive me if after my wife's death I can no longer
+      be the same as before, and believe me, I hate how my cousins \u200B\u200Bsee
+      me now, how they see that I'm not the same as before, but even in this condition
+      I would be incapable of hurting a fly."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 169058978254848
+    m_Localized: I regret my accusations. I was completely unaware of your past.
+      Tell me how long ago your wife died.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 169059401879552
+    m_Localized: He died from a tumor in his head,\n<i>(Juan pauses for a moment,
+      hesitates)</i>\n18 months have passed.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 169059804532736
+    m_Localized: "Since then, it's been hard to get by, but my cousins \u200B\u200Band
+      Juanita mean everything to me. They're the only family I have left, and thanks
+      to them, I keep trying. And believe me, tonight wasn't just any night."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 169060249128960
+    m_Localized: What did you say?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 169138196074496
+    m_Localized: You said at the beginning that this was just an ordinary night where
+      we got together to eat and toast.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 169144462364672
+    m_Localized: But the truth is that tonight, Juanita gave us the news of her pregnancy.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 169149273231360
+    m_Localized: Was she pregnant?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 169154302201856
+    m_Localized: First month or less, I imagine.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 169160245530624
+    m_Localized: But what I really wonder is why Jorge didn't tell me what would
+      have been magnificent news hours ago.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 169166646038528
+    m_Localized: "I'm not surprised\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 169173260455936
+    m_Localized: Doesn't it surprise you that the man who would have been the father
+      ignored the fact that his wife was pregnant when he told me about the situation?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 169597761769472
+    m_Localized: Look, I don't know the details. Juanita hasn't told me things in
+      a while, not like she used to. Don't get me wrong, we've always been best friends,
+      and she'll always be my lifeline, but these last few months I've noticed she's
+      been more reserved.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 169618506797056
+    m_Localized: Were you, your cousin's wife, and best friends?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 169622420082688
+    m_Localized: Yes, since elementary school. Jorge met her thanks to me.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 169627310641152
+    m_Localized: When she lashed out at me, you called her "my cousin's wife." Why
+      not call her your best friend?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 169632368971776
+    m_Localized: Because nothing in my head works the way it should since what I
+      told you. Sometimes I say or do things that I wouldn't have said or done at
+      any other time.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 169639507677184
+    m_Localized: And tell me, why do you think parents try to avoid this topic of
+      pregnancy?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 169644993826816
+    m_Localized: I insist, I don't know the details, but I'm not so sure Juanita
+      wanted it. I mean, whenever we've talked about the possibility of becoming
+      parents someday, she's vehemently rejected the idea.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 169660642775040
+    m_Localized: She simply didn't want to. That may be the reason for her silence
+      and distance; perhaps she needed a moment to consider how she would continue
+      her life.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 169667152334848
+    m_Localized: And why didn't Jorge tell me anything?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 169673376681984
+    m_Localized: I don't know, I honestly don't know. I never discussed that idea
+      with him. I don't know what he was thinking.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 169681375219712
+    m_Localized: Weren't they like brothers?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 169686139949056
+    m_Localized: We simply never talked about it. I never thought about having children
+      either; we were never at that point in our lives.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 169691147948032
+    m_Localized: Don't you think there might be something more?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 169695816208384
+    m_Localized: What do you think?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 169700237004800
+    m_Localized: What if he did want to have it? Do you think there could have been
+      arguments about that?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 169705240809472
+    m_Localized: Maybe, but he had it after all. Were they on the same page or not?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 169710882148352
+    m_Localized: Is she so innocent as to believe there's always consent? Or does
+      she know something and just won't tell me?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 169721959305216
+    m_Localized: I'm not innocent, and I don't intend to hide anything from her;
+      I've only told her the truth. But what she's implying about my cousin and my
+      deceased best friend is something I can't tolerate right now.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 169729311920128
+    m_Localized: (Juan's spark seemed to reignite for a second. The detective didn't
+      know him, but somehow he knew that this was the real Juan.)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 169735511101440
+    m_Localized: I don't intend to bother you any longer with pointless accusations,
+      sir. Just tell me where you were when you heard the gunshots.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 170180447064064
+    m_Localized: I stayed in the dining room the entire time from the moment dinner
+      started.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 170186738520064
+    m_Localized: Was he with someone at the time of the crime?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 170202756567040
+    m_Localized: "\rNo."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 170208444043264
+    m_Localized: Where were Jorge and Roberto?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 170213196189696
+    m_Localized: Jorge had gone upstairs to check on Juanita; I assume the footsteps
+      on the stairs and the sound of the front door I heard later were his. Roberto
+      got up from the table afterward, saying he was going upstairs to charge his
+      phone.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 170305038864384
+    m_Localized: I remember it turning off at some point, so that might be true.
+      But the truth is, when I was alone, I decided to put on some music on my headphones
+      to pass the time.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 170311644893184
+    m_Localized: "I didn't hear footsteps upstairs again, nor arguments, nor shouts.
+      The only noise loud enough to jolt me \u200B\u200Bout of my daze was the first
+      gunshot."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 170317655330816
+    m_Localized: Thank you Juan, please remain in this room until this is all over.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 170329076420608
+    m_Localized: Detective!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 170336554864640
+    m_Localized: (Otto turns around in disbelief)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 170343798427648
+    m_Localized: Be careful with Roberto, I must tell you that he was always a very
+      jealous boy of Jorge.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 170488162177024
+    m_Localized: Why do you say that?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 170519585902592
+    m_Localized: Because his only love since elementary school was always Juanita.
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

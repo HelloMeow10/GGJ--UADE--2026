@@ -17,7 +17,447 @@ MonoBehaviour:
   m_SharedData: {fileID: 11400000, guid: 9b6a3b69669a35945abb8f99f2103071, type: 2}
   m_Metadata:
     m_Items: []
-  m_TableData: []
+  m_TableData:
+  - m_Id: 33446977228800
+    m_Localized: You recognize the box, don't you?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190010344624128
+    m_Localized: (He hesitates for several seconds, still not looking at his interlocutor.
+      Finally, he decides to speak.)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190018724843520
+    m_Localized: Yes.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190027830677504
+    m_Localized: It's too small a box to be from his shoe collection. Does Roberto
+      have children?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190033975332864
+    m_Localized: (He takes another moment, but responds more forcefully.)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190042644959232
+    m_Localized: No.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190048818974720
+    m_Localized: When I went up to his room to look for him, I found it open, sticking
+      out from under his bed. Did you happen to open it today?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190060915347456
+    m_Localized: No.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190085636575232
+    m_Localized: Did you notice her when she went up to her room after dinner?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190092615897088
+    m_Localized: No.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190101507821568
+    m_Localized: Did he go up to his room after dinner?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190120889700352
+    m_Localized: Yes.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190126409404416
+    m_Localized: Why?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190132306595840
+    m_Localized: I needed to charge my cell phone.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190137209737216
+    m_Localized: Were you expecting a call from someone, or did you have to go somewhere?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190142888824832
+    m_Localized: I mean, it's his house, couldn't he have carried it when everyone
+      left?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190148563718144
+    m_Localized: I decided to make the most of the downtime.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190154641264640
+    m_Localized: Why was there a timeout?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190160601370624
+    m_Localized: Juana and Jorge left the table because Juana felt unwell.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190167442280448
+    m_Localized: When she went upstairs, was her closet open or closed?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190183540019200
+    m_Localized: I don't remember.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190189567234048
+    m_Localized: Don't you remember seeing any mess in your room?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190195464425472
+    m_Localized: No.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190201441308672
+    m_Localized: Was the door open or closed?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190207850205184
+    m_Localized: About what?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190214934384640
+    m_Localized: From his room.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190220542169088
+    m_Localized: Closed. I always leave my bedroom door closed when I have guests.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190234685362176
+    m_Localized: With a key?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190252263690240
+    m_Localized: No.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190258987159552
+    m_Localized: Did you hear water running from the bathroom where Juanita was?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190266994085888
+    m_Localized: No.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190272916443136
+    m_Localized: The house is big, my room and that bathroom are at opposite ends,
+      I didn't hear anything that happened until the gunshot.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190279765741568
+    m_Localized: Just one?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190285042176000
+    m_Localized: I meant up until the first shot.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190290662543360
+    m_Localized: So he heard them?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190304612798464
+    m_Localized: Yes.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190310187028480
+    m_Localized: And what did he do next?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190325684981760
+    m_Localized: First I waited a few seconds, at first I didn't understand what
+      had happened, I was scared.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190334006480896
+    m_Localized: Then I ran out in the direction of the bathroom.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190344639041536
+    m_Localized: Did you run into someone in the bathroom?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190351916158976
+    m_Localized: No.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190358689959936
+    m_Localized: But I did run into my brother at the bottom of the stairs.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190363928645632
+    m_Localized: Was he already upstairs?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190373411966976
+    m_Localized: No, I had just finished uploading them.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190390025605120
+    m_Localized: Did you hear his footsteps when you were running down the hall?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 204873188003840
+    m_Localized: Only the last steps.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 204881756966912
+    m_Localized: Did you see him upload them from the beginning?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 204887029207040
+    m_Localized: No, I heard the footsteps without seeing him. I only saw him when
+      he finished climbing the last step.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 204893056421888
+    m_Localized: Who went into the bathroom first?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 204899222048768
+    m_Localized: He opened the door.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 204905387675648
+    m_Localized: How did he react?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 204911200980992
+    m_Localized: She didn't scream, just a few tears. She was in shock. He leaned
+      over her but didn't touch her, didn't speak to her.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 204917064617984
+    m_Localized: And you?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 204922919866368
+    m_Localized: I couldn't get into the bathroom. When I saw her, my knees just
+      buckled. I threw up, that's why I needed the glass of water.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 204927957225472
+    m_Localized: Your brother didn't tell me that you were with him.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205110120042496
+    m_Localized: He probably didn't even notice, he's never really noticed me that
+      much.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205116176617472
+    m_Localized: Have you felt very ignored during your life?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205129841659904
+    m_Localized: (He paused for a long time again)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205136296693760
+    m_Localized: "Could be\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205143729000448
+    m_Localized: What did he feel for Juanita?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205270715748352
+    m_Localized: What does he mean?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205276814266368
+    m_Localized: I'm asking about your relationship with her. You must understand
+      that I need to find a motive for the murder of a cat so beloved by your family.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205298637230080
+    m_Localized: I always liked her, she was always good to me.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205305356505088
+    m_Localized: Did he ever touch it?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205313870942208
+    m_Localized: Like a hug or a handshake? Yes, like any greeting.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205319394840576
+    m_Localized: Did you feel anything?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205323740139520
+    m_Localized: What does that mean?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205329343729664
+    m_Localized: Diego was very attractive; no one blamed him for natural bodily
+      reactions.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205334834073600
+    m_Localized: How dare he?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205342677422080
+    m_Localized: To what? To insinuate that you felt something more for your brother's
+      wife?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205519949680640
+    m_Localized: Just close your mouth.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205526505377792
+    m_Localized: Are those emotions tormenting him? Is that feeling of being ignored
+      terrifying him? I understand that not only was he ignored by his brother, but
+      also by the woman of his dreams. It's curious that they ended up together.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205532259962880
+    m_Localized: (Giving a murderous look)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205538643693568
+    m_Localized: Shut up.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205548559028224
+    m_Localized: I bet you've dreamt a thousand times about the day you open that
+      bathroom door and find your brother dead. Or did things actually turn out the
+      way you always wanted? Did you come to hate her for not loving him?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205557652279296
+    m_Localized: (Hitting with a simple swipe of his hand and sending the box flying
+      through the air)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205574140088320
+    m_Localized: <b>SHUT UP.</b>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205580096000000
+    m_Localized: (Otto took a step back. He got a reaction, but not the one he expected.
+      He expected her to grab a knife and stab him between the eyes.)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205585150136320
+    m_Localized: (acting as if nothing had happened)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205590850195456
+    m_Localized: Did I know what was in that box? Because I did.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205913761271808
+    m_Localized: Yes.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205920652513280
+    m_Localized: Did he enjoy target shooting?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205928135151616
+    m_Localized: No. I had it for self-defense. Big house, I live alone.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205935118667776
+    m_Localized: Good choice. A subcompact doesn't require precision; it's for close-range
+      shooting.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205946648809472
+    m_Localized: I know, that's why I bought it.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 206039913353216
+    m_Localized: (Notice a line of blood running down his temple)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 206046565519360
+    m_Localized: Are you injured?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 206052315910144
+    m_Localized: Yes, I bumped my head on the corner of the nightstand when I bent
+      down to charge my phone. You can check my room if you want.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 206060272504832
+    m_Localized: Don't worry, I believe you.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 206067016945664
+    m_Localized: (Roberto tries to stifle a sob. Otto can hear him weeping as he
+      leaves the kitchen.)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 206073723637760
+    m_Localized: I am sorry for your loss.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 206080786845696
+    m_Localized: '"This family holds many secrets," Otto thought.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 206087145410560
+    m_Localized: Jealousy everywhere, a pregnancy the victim didn't want, a husband
+      who goes from cold to attentive in a second, a cousin who answers too many
+      times with the words "I don't know" to every question I ask him about the one
+      who was supposed to be his best friend, and now a brother who was always in
+      love with his sister-in-law.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 206242531790848
+    m_Localized: This act of the perfect family ended the moment one of them stopped
+      playing the part, bringing with it the worst consequences of keeping secrets
+      for too long.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 206251461464064
+    m_Localized: 'It was Roberto''s turn to be questioned, Jorge''s brother, Juan''s
+      cousin, Juanita''s secret admirer. When Otto entered the kitchen, he understood
+      perfectly what he was facing: a stone statue that wouldn''t say anything, at
+      least nothing useful. Serene face, piercing eyes.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 206257685811200
+    m_Localized: 'His gray fur was as mysterious as his being. He quietly let the
+      words slip from his mouth, as if time were lagging behind him.
+
+      On the
+      white marble island, which represented the chasm between Otto and his source
+      of truth, sat an empty shoebox.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 206264031793152
+    m_Localized: Roberto couldn't take his eyes off her. He seemed petrified when
+      Otto placed her in front of him.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 206270113533952
+    m_Localized: On the counter behind the suspect, sets of silver-plated cutlery
+      can be seen, reflecting the white light that fell from the ceiling like a waterfall.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 206279160647680
+    m_Localized: '"They are all potential weapons."'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 206286521651200
+    m_Localized: The detective no longer believed in coincidences; the room had been
+      chosen by Roberto for the interrogation. "I need a glass of water," the suspect
+      argued.
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

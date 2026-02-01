@@ -17,7 +17,271 @@ MonoBehaviour:
   m_SharedData: {fileID: 11400000, guid: 189bbc61f96b7244fb603b7dad510bfc, type: 2}
   m_Metadata:
     m_Items: []
-  m_TableData: []
+  m_TableData:
+  - m_Id: 102564909056
+    m_Localized: 'I''ll get straight to the point: Why did he kill his wife?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100671264280576
+    m_Localized: (Jorge seemed confused, judging by his eyes. His body didn't move.
+      Several seconds passed before he said anything.)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100913556639744
+    m_Localized: Excuse me? Do you seriously think I would be capable of doing anything
+      to my wife? In case you've forgotten, I was the one who called you in the first
+      place to investigate this crime. Don't try to play the bad detective with me;
+      you're practically working for me.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101165659475968
+    m_Localized: 'You''re right, please excuse my indiscretion. I just wanted to
+      do a little exercise with you; there''s no reason to be alarmed. Now, if you''re
+      ready, I''ll begin with the first and most anticipated question of all: Where
+      were you when you heard the gunshots?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101729558482944
+    m_Localized: (recovering his deep voice)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 102250272935936
+    m_Localized: I was in the garden, smoking like God intended.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 102442682437632
+    m_Localized: On the butt or the front?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 102623507271680
+    m_Localized: Front.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 103162374672384
+    m_Localized: Did he go far from the door when he left, or did he always stay
+      on the stone steps?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 104127668572160
+    m_Localized: I walked a few steps toward the roundabout to look at the flowers;
+      I was planning to bring one to my wife later. But what does it matter if I
+      was far from the door or not, detective? It's not a crime to move your legs,
+      is it?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 104769267060736
+    m_Localized: A hint of an amused smile flickered across his face, only to be
+      erased in a fraction of a second.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105651295637504
+    m_Localized: I'm just trying to set the stage.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105743368998912
+    m_Localized: I noticed the road is unpaved; didn't you consider paving it?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 106095308853248
+    m_Localized: I'd love to have that power, sir, but the house belongs to my brother.
+      Why are you even talking to me about this?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 106493000175616
+    m_Localized: I hate driving a new car on dirt roads, it was just a comment.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 107017569193984
+    m_Localized: (Jorge glared at him. He took it as an insult to his very being.)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 107395576647680
+    m_Localized: Did he used to give his wife flowers?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 107632106033152
+    m_Localized: Many years ago, in the early years of our relationship, yes. Later,
+      one could say that that gesture lost some of its value.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 108997570088960
+    m_Localized: So why re-evaluate that gesture?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 109366090027008
+    m_Localized: Because she had been feeling unwell since dinner, I thought a flower
+      might make her feel better.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 110011756990464
+    m_Localized: So he considered himself a caring husband?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 110273494142976
+    m_Localized: I never said no, it's just that flowers didn't mean the same thing
+      to me anymore. But for the occasion, and after so many years, I thought they
+      wouldn't be out of place. You know, preserving a marriage isn't easy, detective,
+      if you know what I'm talking about.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 110918125113344
+    m_Localized: (He gives her an amused look, seeking complicity; he is completely
+      ignored)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 111047313870848
+    m_Localized: He said his wife had been feeling unwell since dinner. Would you
+      like to tell me what happened since then?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 111179790962688
+    m_Localized: Of course. It seems the food hadn't agreed with her, mainly stomach
+      cramps. She endured the pain as long as she could, even joining us for a glass
+      of champagne at midnight.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 111615340072960
+    m_Localized: However, that drink finally got to her. Excuse me, she left the
+      table and went upstairs to the bathroom. After an hour without her returning,
+      I did what any husband would do and went upstairs to check on her. I hadn't
+      even opened the door when she stopped me.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 112550497898496
+    m_Localized: 'I could hear water running. I asked her if she was alright, to
+      which she replied verbatim: "Yes, honey."'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 112803389263872
+    m_Localized: Faced with that response, I decided to go back downstairs and go
+      out for a smoke to calm things down, but as soon as I got downstairs I went
+      straight to the front door, without going through the dining room where my
+      brother and cousin were supposedly still drinking.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113319330598912
+    m_Localized: Then he heard the gunshots and went upstairs immediately to find
+      his wife dead.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113464017309696
+    m_Localized: Exactly.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113659002114048
+    m_Localized: (The detective noticed that on the bedside table in the guest room
+      there was an open medicine cabinet, probably taken from the bathroom if that
+      family organized things with general logic.)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113768326647808
+    m_Localized: Is he injured?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145308704198656
+    m_Localized: (Noticing the same thing as the detective)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 173375101620224
+    m_Localized: A tall cat, dressed in a silk jacket and trousers the color of coffee.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175325348122624
+    m_Localized: Always standing upright with his arms behind him, he never let go
+      of his hands, or rather his paws.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175334890164224
+    m_Localized: We cannot see his face under his mask, but we will always see his
+      eyes, where they go when he speaks, what they hide.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175344209907712
+    m_Localized: In fact, that will be the case with every guest we question, and
+      why not, if we're at a costume party.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175354074910720
+    m_Localized: This same feline was Juanita's husband.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175361528188928
+    m_Localized: They arrived at the party around 9:00 with their arms intertwined,
+      like an unbreakable chain.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175370894069760
+    m_Localized: Juanita wasn't wearing a mask, but a domino mask.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175379538530304
+    m_Localized: People saw her smiling broadly during the party, a delicate but
+      genuine smile.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175385544773632
+    m_Localized: The couple greeted the other two guests very cordially, Juanita
+      even more warmly by discreetly extending a hand to each of them.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175391643291648
+    m_Localized: Jorge was a straightforward character, but not necessarily cold.
+      He liked to maintain a certain distance from people, not out of dislike, but
+      because he considered it a sign of respect, as someone who deserved special
+      treatment over the rest.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175404477861888
+    m_Localized: He had that look, that commanding presence that would make anyone
+      kneel.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175409682993152
+    m_Localized: Anyone would think that his loved ones were afraid of him, maybe
+      so, maybe they hid it well, out of fear.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175414531608576
+    m_Localized: But it should be noted that he was charismatic, eloquent, and calm.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175419132760064
+    m_Localized: A skilled smoker, he needed to leave the common room every hour
+      to refresh his head in the front garden and intoxicate his lungs with the smoke
+      of his tobacco.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175423423533056
+    m_Localized: His mustaches, once brown like his clothes, were beginning to turn
+      yellow.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175429152952320
+    m_Localized: Detective Otto looks for him first for obvious reasons.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175747123138560
+    m_Localized: He begins to speak to him at a prudent distance, of course suggested
+      by the person being questioned who kept crossing his arms behind his back.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 264056822321152
+    m_Localized: Of course, while looking at the flowers I cut myself on the thorns
+      on the stems. Right now I'm applying pressure to stop the bleeding.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 264064120410112
+    m_Localized: (Tries to laugh awkwardly, without success)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 264072550961152
+    m_Localized: That's all, please wait in this room.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 264079211515904
+    m_Localized: You can count on that agent.
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

@@ -19,7 +19,7 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 102564909056
-    m_Localized: " Ir\xE9 directamente al punto: \xBFPor qu\xE9 mat\xF3 a su esposa?"
+    m_Localized: "Ir\xE9 directamente al punto: \xBFPor qu\xE9 mat\xF3 a su esposa?"
     m_Metadata:
       m_Items: []
   - m_Id: 100671264280576
@@ -184,8 +184,8 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 173375101620224
-    m_Localized: "<i>Un gato alto, vestido con un saco y pantalones de seda como
-      el caf\xE9."
+    m_Localized: "Un gato alto, vestido con un saco y pantalones de seda como el
+      caf\xE9."
     m_Metadata:
       m_Items: []
   - m_Id: 175325348122624

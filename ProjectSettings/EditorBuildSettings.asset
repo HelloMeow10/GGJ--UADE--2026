@@ -6,11 +6,20 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/MainScene.unity
-    guid: 52e40158866041743b6cf64ccc7b753c
+    path: Assets/_Project/Scenes/IntroScene.unity
+    guid: ba49953b7fe14dd438c1bdfb4fb4fd6f
   - enabled: 1
     path: Assets/_Project/Scenes/GameScene.unity
     guid: 42047f597fceb8c4aac75eea015ba070
+  - enabled: 1
+    path: Assets/Scenes/MainScene.unity
+    guid: 52e40158866041743b6cf64ccc7b753c
+  - enabled: 1
+    path: Assets/_Project/Scenes/WinScene.unity
+    guid: 369d1e83ff70add4093ccb71ee300d38
+  - enabled: 1
+    path: Assets/_Project/Scenes/LoseScene.unity
+    guid: 6e7b55b2262248443ad3ff2676e1f3e1
   m_configObjects:
     com.unity.addressableassets: {fileID: 11400000, guid: 77f462bfbe91f3446810c288171427df, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}

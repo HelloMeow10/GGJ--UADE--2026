@@ -288,6 +288,7 @@ GameObject:
   - component: {fileID: 547293771}
   - component: {fileID: 547293770}
   - component: {fileID: 547293772}
+  - component: {fileID: 547293773}
   m_Layer: 5
   m_Name: introSceneImages
   m_TagString: Untagged
@@ -381,16 +382,16 @@ MonoBehaviour:
   - sound: {fileID: 0}
     text: "Uno en el est\xF3mago y el segundo en el hombro."
     sprite: {fileID: 1754917384313331299, guid: 4e6015405994a104f8f89b164673a20b, type: 3}
-  - sound: {fileID: 0}
+  - sound: {fileID: 8300000, guid: 9316d32dd0b0317478cb9d314466bff0, type: 3}
     text: 'Su vestido muestra signos de una pelea previa, las mangas hechas jirones, '
     sprite: {fileID: -554680893072419701, guid: 8b4bbbb6ce4cf3a42a069718fdde9e43, type: 3}
-  - sound: {fileID: 0}
+  - sound: {fileID: 8300000, guid: ded1d3a7cb2d17e4485cc680d4b2c0d9, type: 3}
     text: La parte de abajo pisoteada (hay huellas de zapatos, tierra).
     sprite: {fileID: 3140056023366530935, guid: 5337a98d445a30a4d93689a8d327819f, type: 3}
-  - sound: {fileID: 0}
+  - sound: {fileID: 8300000, guid: 67be828246a8b6547b08a92da57ff8fb, type: 3}
     text: "Las baldosas muestran marcas de rasgu\xF1os."
     sprite: {fileID: -2349425728511469973, guid: 54d93c9fbf332954facf5198acb4973a, type: 3}
-  - sound: {fileID: 8300000, guid: 0044d2aa3738a3746b8c251e71a91a05, type: 3}
+  - sound: {fileID: 8300000, guid: cf49f7fba07f5fb41b15b4b61d3c71fd, type: 3}
     text: "Las heridas son peque\xF1as, concentradas, de una pistola sub-compacta,
       una magnum .38 probablemente. La v\xEDctima cay\xF3 bruscamente hacia atr\xE1s,
       la parte posterior de su cabeza fue hallada con contusiones.  Ubicaci\xF3n
@@ -449,6 +450,19 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+--- !u!114 &547293773
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 547293768}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f16e269c6cad3674180b3f33c2d5a8a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  music: {fileID: 8300000, guid: 36f4142d60b77c14eba6de7419e83edb, type: 3}
 --- !u!1 &868134692
 GameObject:
   m_ObjectHideFlags: 0
@@ -1122,6 +1136,7 @@ GameObject:
   - component: {fileID: 1562706055}
   - component: {fileID: 1562706057}
   - component: {fileID: 1562706056}
+  - component: {fileID: 1562706058}
   m_Layer: 5
   m_Name: Title screen
   m_TagString: Untagged
@@ -1187,6 +1202,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1562706054}
   m_CullTransparentMesh: 1
+--- !u!114 &1562706058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1562706054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f16e269c6cad3674180b3f33c2d5a8a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  music: {fileID: 8300000, guid: c985fd3f737debd4a9f31626c41398d6, type: 3}
 --- !u!1 &1752535849
 GameObject:
   m_ObjectHideFlags: 0
@@ -1325,6 +1353,51 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1752535849}
   m_CullTransparentMesh: 1
+--- !u!1 &1868285787
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1868285789}
+  - component: {fileID: 1868285788}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1868285788
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1868285787}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f16e269c6cad3674180b3f33c2d5a8a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  music: {fileID: 8300000, guid: c985fd3f737debd4a9f31626c41398d6, type: 3}
+--- !u!4 &1868285789
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1868285787}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 929.6281, y: 643.80115, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1996481660
 GameObject:
   m_ObjectHideFlags: 0
@@ -1649,3 +1722,4 @@ SceneRoots:
   - {fileID: 1996481664}
   - {fileID: 2073771279}
   - {fileID: 1399297808}
+  - {fileID: 1868285789}

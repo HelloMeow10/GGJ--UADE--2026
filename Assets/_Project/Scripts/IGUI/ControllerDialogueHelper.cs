@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public class ControllerDialogueHelper : MonoBehaviour
 {
+    [Header("music")]
+    [SerializeField] private AudioClip music;
     [Header("Settings")]
     [SerializeField] private DataDialogue _dialogueData;
     [SerializeField] private LocalizedString _playerName;
@@ -38,6 +40,7 @@ public class ControllerDialogueHelper : MonoBehaviour
 
     private void OnDialogueStart(Assassin character)
     {
+        AudioManager.Instance.PlayMusic(music);
         if (character != _dialogueData.Character)
         {
             CanvasGroupStatus(false);

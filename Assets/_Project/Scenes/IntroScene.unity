@@ -119,6 +119,163 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &367628397
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 367628398}
+  - component: {fileID: 367628402}
+  - component: {fileID: 367628401}
+  - component: {fileID: 367628400}
+  - component: {fileID: 367628399}
+  m_Layer: 5
+  m_Name: Start button
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &367628398
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 367628397}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.5910999, y: 0.5910999, z: 0.5910999}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1996481664}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -285}
+  m_SizeDelta: {x: 868, y: 258}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &367628399
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 367628397}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0123730eaf7631446a87ff97a9964bd4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &367628400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 367628397}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 367628401}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 547293768}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: GameScene
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 367628397}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &367628401
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 367628397}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: -6720543606946820866, guid: 002474d3c0da7ea4ca041a6ca735895c, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &367628402
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 367628397}
+  m_CullTransparentMesh: 1
 --- !u!1 &547293768
 GameObject:
   m_ObjectHideFlags: 0
@@ -137,7 +294,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &547293769
 RectTransform:
   m_ObjectHideFlags: 0
@@ -179,7 +336,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -2349425728511469973, guid: 54d93c9fbf332954facf5198acb4973a, type: 3}
+  m_Sprite: {fileID: -2680820775760432331, guid: cca94892ba6c15340b6704fc3d74447b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -212,33 +369,59 @@ MonoBehaviour:
   image: {fileID: 547293770}
   tmpText: {fileID: 1301236562}
   scenes:
-  - sound: {fileID: 0}
-    text: "Ba\xF1o de la planta superior"
-    sprite: {fileID: -2349425728511469973, guid: 54d93c9fbf332954facf5198acb4973a, type: 3}
-  - sound: {fileID: 0}
-    text: 
-    sprite: {fileID: -4197752941714781279, guid: 40915204e32bd5048904cde8d3b336f0, type: 3}
-  - sound: {fileID: 0}
-    text: 
-    sprite: {fileID: -554680893072419701, guid: 8b4bbbb6ce4cf3a42a069718fdde9e43, type: 3}
-  - sound: {fileID: 0}
-    text: 
-    sprite: {fileID: 3140056023366530935, guid: 5337a98d445a30a4d93689a8d327819f, type: 3}
-  - sound: {fileID: 0}
-    text: 
-    sprite: {fileID: -6888756438569675735, guid: 9ea2806a1acdf4a4c9fc255487cedfc2, type: 3}
-  - sound: {fileID: 0}
-    text: 
-    sprite: {fileID: 1754917384313331299, guid: 4e6015405994a104f8f89b164673a20b, type: 3}
-  - sound: {fileID: 0}
-    text: 
-    sprite: {fileID: 2705544652524594917, guid: 89cdc3eca06668e4b860eb9749e08410, type: 3}
-  - sound: {fileID: 0}
-    text: 
+  - sound: {fileID: 8300000, guid: 3cf5d5da2c5fd1141b7f8a8d8f01ed23, type: 3}
+    text: "El atacante y la v\xEDctima se encontraron alrededor de las 2:30 de la
+      ma\xF1ana. Seg\xFAn los invitados, cerca de esa hora fue que corroboraron los
+      relojes tras escuchar un ruido lejano."
     sprite: {fileID: -2680820775760432331, guid: cca94892ba6c15340b6704fc3d74447b, type: 3}
   - sound: {fileID: 0}
-    text: 
+    text: "Juanita (V\xECctima): 30 a\xF1os. Encontrada muerta por desangramiento
+      por una herida de 2 balazos."
+    sprite: {fileID: -4197752941714781279, guid: 40915204e32bd5048904cde8d3b336f0, type: 3}
+  - sound: {fileID: 0}
+    text: "Uno en el est\xF3mago y el segundo en el hombro."
+    sprite: {fileID: 1754917384313331299, guid: 4e6015405994a104f8f89b164673a20b, type: 3}
+  - sound: {fileID: 0}
+    text: 'Su vestido muestra signos de una pelea previa, las mangas hechas jirones, '
+    sprite: {fileID: -554680893072419701, guid: 8b4bbbb6ce4cf3a42a069718fdde9e43, type: 3}
+  - sound: {fileID: 0}
+    text: La parte de abajo pisoteada (hay huellas de zapatos, tierra).
+    sprite: {fileID: 3140056023366530935, guid: 5337a98d445a30a4d93689a8d327819f, type: 3}
+  - sound: {fileID: 0}
+    text: "Las baldosas muestran marcas de rasgu\xF1os."
+    sprite: {fileID: -2349425728511469973, guid: 54d93c9fbf332954facf5198acb4973a, type: 3}
+  - sound: {fileID: 8300000, guid: 0044d2aa3738a3746b8c251e71a91a05, type: 3}
+    text: "Las heridas son peque\xF1as, concentradas, de una pistola sub-compacta,
+      una magnum .38 probablemente. La v\xEDctima cay\xF3 bruscamente hacia atr\xE1s,
+      la parte posterior de su cabeza fue hallada con contusiones.  Ubicaci\xF3n
+      del crimen: Ba\xF1o de la planta superior. "
+    sprite: {fileID: -6888756438569675735, guid: 9ea2806a1acdf4a4c9fc255487cedfc2, type: 3}
+  - sound: {fileID: 0}
+    text: "Est\xE1 claro que el victimario debi\xF3 ingresar despu\xE9s o al mismo
+      tiempo que la v\xEDctima. La pintura del marco de la puerta se encuentra resquebrajada,
+      como si se hubiese querido accionar la traba con violencia, con un golpe, el
+      primero errado, el que rompe la pintura, el segundo consigue prohibir el escape
+      de la gata."
+    sprite: {fileID: 2705544652524594917, guid: 89cdc3eca06668e4b860eb9749e08410, type: 3}
+  - sound: {fileID: 0}
+    text: "Hay torpeza en las acciones del asesino, no es alguien entrenado, no es
+      alguien h\xE1bil, y mucho menos actu\xF3 manteniendo la calma. Este ataque
+      fue motivado por la rabia o por alguna emoci\xF3n fuerte, un crimen pasional.
+      No hubo premeditaci\xF3n, y sin embargo, hay dolo. "
+    sprite: {fileID: -4197752941714781279, guid: 40915204e32bd5048904cde8d3b336f0, type: 3}
+  - sound: {fileID: 0}
+    text: "Alguien demasiado torpe hubiese dejado la puerta abierta; alguien solo
+      torpe, pero que dentro de s\xED, dentro de lo m\xE1s profundo de su ser, siempre
+      estuvo listo para matar, toma estas decisiones como bloquear la salida o limpiar
+      la sangre del piso dejando huellas que indican que es un asesino de sangre
+      fr\xEDa. "
     sprite: {fileID: -2459407870257011468, guid: d594f06c0688cac4c892a192e529fe7e, type: 3}
+  - sound: {fileID: 0}
+    text: "Los motivos no est\xE1n claros, hay tres sospechosos. El problema es que
+      los tres invitados no pudieron haber escuchado esa explosi\xF3n desde otra
+      habitaci\xF3n al mismo tiempo, uno debe estar mintiendo, uno debi\xF3 apretar
+      el gatillo. "
+    sprite: {fileID: -6888756438569675735, guid: 9ea2806a1acdf4a4c9fc255487cedfc2, type: 3}
   onEndOfCinematic:
     m_PersistentCalls:
       m_Calls:
@@ -479,8 +662,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1236,6 +1419,7 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 367628398}
   - {fileID: 547293769}
   - {fileID: 1562706055}
   m_Father: {fileID: 0}

@@ -78,8 +78,8 @@ public class ControllerDialogueHelper : MonoBehaviour
         return talker switch
         {
             TalkerType.Character => _dialogueData.CharacterName,
-            TalkerType.Player => _playerName.IsEmpty ? "Player" : _playerName.GetLocalizedString(),
-            TalkerType.Narrator => _narratorName.IsEmpty ? "Narrator" : _narratorName.GetLocalizedString(),
+            TalkerType.Player => _playerName.IsEmpty ? "Player" : _playerName.GetLocalizedStringAsync().Result,
+            TalkerType.Narrator => _narratorName.IsEmpty ? "Narrator" : _narratorName.GetLocalizedStringAsync().Result,
             _ => "???"
         };
     }

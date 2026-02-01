@@ -29,6 +29,7 @@ public class ControllerDialogue : BaseTabController
     {
         base.Awake();
         OnDialogueText += SetDialogueText;
+        GameManager.OnDialogueEnd += DialogueEnd;
 
         _notepadButton.onClick.AddListener(OpenNotepad);
         _assassinSelectorButton.onClick.AddListener(OpenAssassinSelector);
@@ -38,6 +39,7 @@ public class ControllerDialogue : BaseTabController
     {
         base.OnDestroy();
         OnDialogueText -= SetDialogueText;
+        GameManager.OnDialogueEnd -= DialogueEnd;
 
         _notepadButton.onClick.RemoveListener(OpenNotepad);
         _assassinSelectorButton.onClick.RemoveListener(OpenAssassinSelector);
@@ -85,5 +87,12 @@ public class ControllerDialogue : BaseTabController
     public override void OnExitTab()
     {
         ControllerIGUI.OnTabChange?.Invoke(GameManager.IsInDialogueMode ? IGUITab.Dialogue : IGUITab.ChatSelector);
+    }
+
+    private void DialogueEnd()
+    {
+        _dialogueText.text = string.Empty;
+        _talkerNameText.text = string.Empty;
+        _playerPortrait.color = nonTalkerColor;
     }
 }

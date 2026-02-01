@@ -49,7 +49,11 @@ public class ControllerTalkSelection : BaseTabController
         else if (!_talkRobertoButton.interactable)
         {
             _talkRobertoButton.interactable = true;
+            
             return;
         }
+
+        else
+            _toAssassinSelectorButton.interactable = true;
     }
 }

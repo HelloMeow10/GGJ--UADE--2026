@@ -84,6 +84,274 @@ MonoBehaviour:
     m_Localized: "Este particular felino era ni m\xE1s ni menos que el primo de Jorge. "
     m_Metadata:
       m_Items: []
+  - m_Id: 169000979419136
+    m_Localized: "\xBFC\xF3mo se lleva con su primo?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 169055106912256
+    m_Localized: "Bien, desde cachorros somos amigos, nunca tuvimos ninguna discusi\xF3n
+      grave o nos peleamos de tal manera de que acudieramos al tiempo para sanar.
+      Por supuesto pudieron haber desacuerdos como en cualquier familia, pero dir\xEDa
+      que tenemos una buena relaci\xF3n.\r\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 169055715086336
+    m_Localized: "Se lo nota distra\xEDdo se\xF1or, o tal vez la relaci\xF3n con
+      su primo no era la maravilla que esperaba considerando que se re\xFAnen una
+      noche cualquiera para comer y brindar. Tengo que admitir, me sorprende la disposici\xF3n
+      de ver a su primo entre tan poca gente que pudiera aliviar aquellos roces entre
+      ustedes."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 169056230985728
+    m_Localized: "Yo particularmente necesitar\xECa de una multitud para verme con
+      alguien a quien claramente no quiero. Pero si usted plane\xF3 algo especial
+      para esta noche tendr\xEDa sentido\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 169056788828160
+    m_Localized: "\xBFQU\xC9 EST\xC1 INSINUANDO?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 169057287950336
+    m_Localized: "\xBFQUE YO SOY EL CULPABLE DE LA MUERTE DE JUANITA, QUE SOY TAN
+      DESPIADADO PARA LASTIMAR A ALGUIEN?\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 169057766100992
+    m_Localized: "Solo exploro posibilidades Juan. Mi trabajo es resolver este crimen,
+      y empec\xE9 con una hoja en blanco. Si usted est\xE1 en mi equipo sabr\xE1
+      entenderme.\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 169058168754176
+    m_Localized: "Lo entiendo, pero no puede esperar que me encuentre de buen humor
+      detective. Disculpe si no lo recibo con una sonrisa, pero la esposa de mi primo
+      fue hallada brutalmente asesinada, la esposa de MI primo, que siempre supo
+      ser un amigo para m\xED, m\xE1s que eso ... "
+    m_Metadata:
+      m_Items: []
+  - m_Id: 169058571407360
+    m_Localized: "Un hermano. Disculpe si despu\xE9s de la muerte de mi esposa ya
+      no puedo ser como era, y cre\xE1me que odio como mis primos me ven ahora, como
+      ven que ya no soy el de antes, pero incluso en esta condici\xF3n ser\xEDa incapaz
+      de lastimar una mosca."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 169058978254848
+    m_Localized: "Lamento mis acusaciones. Desconoc\xEDa por completo su pasado.
+      D\xEDgame hace cu\xE1nto tiempo muri\xF3 su esposa."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 169059401879552
+    m_Localized: "Falleci\xF3 por un tumor en su cabeza,\\n<i>(Juan se pausa un momento,
+      vacila)</i>\\nya pasaron 18 meses."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 169059804532736
+    m_Localized: "Desde entonces me ha costado salir adelante, pero mis primos y
+      Juanita lo son todo para m\xED, son la \xFAnica familia que me queda y gracias
+      a ellos lo sigo intentando. Y cr\xE9ame, esta noche no era una noche cualquiera."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 169060249128960
+    m_Localized: "\xBFC\xF3mo dijo?\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 169138196074496
+    m_Localized: "Usted al principio dijo que esta era una noche cualquiera en la
+      que nos reun\xEDamos para comer y brindar."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 169144462364672
+    m_Localized: 'Pero la verdad es que esta noche, Juanita nos dio la noticia de
+      su embarazo. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 169149273231360
+    m_Localized: "\xBFEstaba embarazada?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 169154302201856
+    m_Localized: Primer mes o menos imagino.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 169160245530624
+    m_Localized: "Pero lo que realmente me pregunto es por qu\xE9 Jorge no me coment\xF3
+      la que habr\xEDa sido una magn\xECfica noticia horas atr\xE1s. "
+    m_Metadata:
+      m_Items: []
+  - m_Id: 169166646038528
+    m_Localized: "No me sorprende\u2026\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 169173260455936
+    m_Localized: "\xBFNo le sorprende que el que habr\xEDa sido el padre ignorara
+      al momento de comentarme la situaci\xF3n con su esposa que ella estaba embarazada?\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 169597761769472
+    m_Localized: "Mire, no s\xE9 los detalles. Juanita hace tiempo que no me cuenta
+      cosas, no como antes. No me malinterprete, siempre fuimos mejores amigos, y
+      siempre ser\xE1 mi salvavidas, pero estos \xFAltimos meses la not\xE9 m\xE1s
+      reservada."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 169618506797056
+    m_Localized: "\xBFUstedes, la esposa de su primo y usted, eran mejores amigos?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 169622420082688
+    m_Localized: "S\xED, desde la primaria. Jorge la conoci\xF3 gracias a m\xEC. "
+    m_Metadata:
+      m_Items: []
+  - m_Id: 169627310641152
+    m_Localized: "Cuando explot\xF3 contra m\xED, usted la llam\xF3 \u2018\u2018la
+      esposa de mi primo\u2019\u2019. \xBFPor qu\xE9 no llamarla como su mejor amiga?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 169632368971776
+    m_Localized: "Porque nada en mi cabeza funciona como deber\xEDa desde lo que
+      le coment\xE9. A veces digo o hago cosas que en otro momento no hubiese dicho
+      o hecho."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 169639507677184
+    m_Localized: "Y d\xEDgame, \xBFpor qu\xE9 cree que este tema del embarazo busca
+      ser evitado por los padres?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 169644993826816
+    m_Localized: "Insisto, no s\xE9 los detalles, pero no estoy tan seguro de que
+      Juanita haya querido tenerlo. Digo, siempre que hemos hablado de la posibilidad
+      de ser padres alg\xFAn d\xEDa ella rechazaba en\xE9rgicamente la idea."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 169660642775040
+    m_Localized: "Simplemente no quer\xEDa. Puede ser que ese sea el motivo de su
+      silencio y distancia, tal vez necesitaba un momento para considerar c\xF3mo
+      seguir\xEDa el rumbo de su vida. "
+    m_Metadata:
+      m_Items: []
+  - m_Id: 169667152334848
+    m_Localized: "\xBFY Jorge por qu\xE9 no me habr\xEDa comentado nada?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 169673376681984
+    m_Localized: "No lo s\xE9, sinceramente no s\xE9. Nunca habl\xE9 de esa idea
+      con \xE9l. No s\xE9 qu\xE9 pensaba. \r\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 169681375219712
+    m_Localized: "\xBFNo eran como hermanos?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 169686139949056
+    m_Localized: "Simplemente nunca hablamos de eso. Yo nunca pens\xE9 tener hijos
+      tampoco, nunca estuvimos en ese punto de la vida."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 169691147948032
+    m_Localized: "\xBFNo piensa que puede haber algo m\xE1s?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 169695816208384
+    m_Localized: "\xBFQu\xE9 se le ocurre?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 169700237004800
+    m_Localized: "\xBFY si \xE9l si lo quer\xEDa tener? \xBFCrees que pudieron haber
+      discusiones por eso?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 169705240809472
+    m_Localized: "Puede ser, pero al fin y al cabo lo tuvo. \xBFEstar\xEDan en la
+      misma p\xE1gina o no?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 169710882148352
+    m_Localized: "\xBFEs tan inocente para creer que siempre hay consentimiento?
+      \xBFo sabe algo y no me lo quiere decir?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 169721959305216
+    m_Localized: "No soy inocente y no pienso ocultarle nada, solo le he dicho verdades.
+      Pero lo que insin\xFAa de mi primo y mi mejor amiga muerta no es algo que pueda
+      tolerar ahora."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 169729311920128
+    m_Localized: "(La chispa de Juan pareci\xF3 reavivarse por un segundo. El detective
+      no lo conoc\xEDa pero de alguna manera sab\xECa que ese era el verdadero Juan)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 169735511101440
+    m_Localized: "No pienso molestarle m\xE1s con acusaciones sin sentido se\xF1or.
+      S\xF3lo d\xEDgame d\xF3nde estaba cuando escuch\xF3 los disparos."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 170180447064064
+    m_Localized: "Me qued\xE9 todo el tiempo en el comedor desde que inici\xF2 la
+      cena."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 170186738520064
+    m_Localized: "\xBFEstaba con alguien al momento del crimen?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 170202756567040
+    m_Localized: "No.\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 170208444043264
+    m_Localized: "\xBFD\xF3nde estaban Jorge y Roberto?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 170213196189696
+    m_Localized: "Jorge hab\xEDa subido para verificar que estuviera bien Juanita,
+      asumo que los pasos en la escalera y el sonido de la puerta del frente que
+      escuch\xE9 tiempo despu\xE9s fueron de \xE9l. Roberto se levant\xF3 de la mesa
+      luego, dijo que subir\xEDa a cargar su celular."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 170305038864384
+    m_Localized: "Recuerdo que se apag\xF3 en alg\xFAn momento, as\xED que puede
+      ser verdad. Pero la verdad, es que al quedarme solo decid\xED poner m\xFAsica
+      en mis auriculares para pasar el tiempo."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 170311644893184
+    m_Localized: "No volv\xED a escuchar pasos en el piso de arriba, ni discusiones,
+      ni gritos. El \xFAnico ruido lo suficientemente fuerte para sacarme de mi letargo
+      fue el primer disparo. \r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 170317655330816
+    m_Localized: "Gracias Juan, le pido permanezca en esta habitaci\xF3n hasta que
+      todo termine."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 170329076420608
+    m_Localized: "\xA1Detective!\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 170336554864640
+    m_Localized: "(Otto se da la vuelta incredulo)\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 170343798427648
+    m_Localized: "Tenga cuidado con Roberto, debo decirle que siempre fue un chico
+      muy celoso de Jorge.\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 170488162177024
+    m_Localized: "\xBFPor qu\xE9 lo dice?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 170519585902592
+    m_Localized: "Porque su \xFAnico amor desde la primaria siempre fue Juanita."
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

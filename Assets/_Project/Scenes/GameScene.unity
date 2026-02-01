@@ -3936,6 +3936,10 @@ PrefabInstance:
       propertyPath: _character
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7638380575003515498, guid: eb3db6b723c8c374686e68d08d0f0840, type: 3}
+      propertyPath: m_Interactable
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8605592538942667675, guid: eb3db6b723c8c374686e68d08d0f0840, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -4086,6 +4090,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 832767037}
   m_CullTransparentMesh: 1
+--- !u!114 &873560055 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7638380575003515498, guid: eb3db6b723c8c374686e68d08d0f0840, type: 3}
+  m_PrefabInstance: {fileID: 1169396180}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &918503587
 GameObject:
   m_ObjectHideFlags: 0
@@ -4204,6 +4219,17 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
+--- !u!114 &1013825222 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7638380575003515498, guid: eb3db6b723c8c374686e68d08d0f0840, type: 3}
+  m_PrefabInstance: {fileID: 814932774}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1015843763
 GameObject:
   m_ObjectHideFlags: 0
@@ -4272,6 +4298,8 @@ MonoBehaviour:
   _exitButton: {fileID: 0}
   _toDiaryButton: {fileID: 649055362}
   _toAssassinSelectorButton: {fileID: 2122725145}
+  _talkJuanButton: {fileID: 1013825222}
+  _talkRobertoButton: {fileID: 873560055}
 --- !u!1001 &1015887621
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4973,6 +5001,10 @@ PrefabInstance:
     - target: {fileID: 7533917421109550933, guid: eb3db6b723c8c374686e68d08d0f0840, type: 3}
       propertyPath: _character
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7638380575003515498, guid: eb3db6b723c8c374686e68d08d0f0840, type: 3}
+      propertyPath: m_Interactable
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8605592538942667675, guid: eb3db6b723c8c374686e68d08d0f0840, type: 3}
       propertyPath: m_Sprite

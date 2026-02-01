@@ -70,7 +70,7 @@ public class ControllerDialogueHelper : MonoBehaviour
             string fullText = stringOperation.Result;
 
             // Display text progressively with typewriter effect
-            yield return StartCoroutine(TypewriterEffect(talkerName, fullText));
+            yield return StartCoroutine(TypewriterEffect(talkerName, fullText, dialogueLine.Talker == TalkerType.Narrator));
 
             // Small delay to prevent accidental skipping
             _canSkip = false;
@@ -89,16 +89,20 @@ public class ControllerDialogueHelper : MonoBehaviour
         // Dialogue ended
         GameManager.IsInDialogueMode = false;
         GameManager.OnDialogueEnd?.Invoke();
+        ControllerTalkSelection.OnRequestUnlockNextCharacter?.Invoke();
 
         // Force switch tab back to chat selector & reset index
         ControllerIGUI.OnTabChange?.Invoke(IGUITab.ChatSelector);
         _currentLineIndex = 0;
     }
 
-    private IEnumerator TypewriterEffect(string talkerName, string fullText)
+    private IEnumerator TypewriterEffect(string talkerName, string fullText, bool isNarrator = false)
     {
         string currentText = "";
         bool insideTag = false;
+
+        if (isNarrator)
+            fullText = $"<i>{fullText}</i>";
         
         for (int i = 0; i < fullText.Length; i++)
         {

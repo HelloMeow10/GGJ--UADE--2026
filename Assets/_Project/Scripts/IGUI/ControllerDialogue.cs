@@ -14,11 +14,6 @@ public class ControllerDialogue : BaseTabController
     [SerializeField] private TextMeshProUGUI _dialogueText;
     [SerializeField] private Image _playerPortrait;
 
-    [Header("Chat Canvas Groups")]
-    [SerializeField] private CanvasGroup _chatJorge;
-    [SerializeField] private CanvasGroup _chatJuan;
-
-
     [Header("Others")]
     public Color nonTalkerColor = new(1f, 1f, 1f, 0.5f);
     public Color talkerColor = Color.white;

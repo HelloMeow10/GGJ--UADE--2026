@@ -18,177 +18,447 @@ MonoBehaviour:
   m_Metadata:
     m_Items: []
   m_TableData:
-  - m_Id: 12254859264
-    m_Localized: "(\u2018\u2018Esta familia contiene muchos secretos\u2019\u2019,
-      pens\xF3 Otto. Celos por todos lados, un embarazo que la v\xEDctima no deseaba,
-      un esposo que pasa de fr\xEDo a atento en un segundo, un primo que responde
-      demasiado con las palabras \u2018\u2018no s\xE9\u2019\u2019 a cada pregunta
-      que le hago sobre la que se supone era su mejor amiga, y ahora un hermano que
-      siempre estuvo enamorado de su cu\xF1ada. \r\nEste acto de la familia perfecta
-      termin\xF3 en el momento en que alguno de ellos dej\xF3 de jugar el papel trayendo
-      consigo las peores consecuencias de guardar secretos durante mucho tiempo.
-      \r\n"
+  - m_Id: 190279765741568
+    m_Localized: "\xBFUno solo?"
     m_Metadata:
       m_Items: []
-  - m_Id: 27540520587264
-    m_Localized: "Era el turno de interrogar a Roberto, el hermano de Jorge, el primo
-      de Juan, el admirador secreto de Juanita. Cuando Otto ingres\xF3 en la cocina
-      entendi\xF3 perfectamente a lo que se enfrentaba, una estatua de piedra que
-      no dir\xEDa nada, al menos no de utilidad. Cara serena, ojos penetrantes. Un
-      pelaje gris y misterioso como su ser se exhib\xEDa. Desplazaba las palabras
-      fuera de su boca con quietud, como si el tiempo fuera por detr\xE1s de \xE9l.\r\nSobre
-      la isla de m\xE1rmol blanco, que representaba el abismo entre Otto y su fuente
-      de la verdad, hab\xEDa una caja de zapatos vac\xEDa. Roberto no le sacaba los
-      ojos de encima. Parec\xEDa petrificado cuando Otto la deposit\xF3 frente a
-      \xE9l.\r\n"
+  - m_Id: 190272916443136
+    m_Localized: "La casa es grande, mi habitaci\xF3n y ese ba\xF1o est\xE1n en extremos
+      separados, no escuch\xE9 nada de lo que pas\xF3 hasta el disparo."
     m_Metadata:
       m_Items: []
-  - m_Id: 27687002460160
-    m_Localized: "Sobre la mesada detr\xE1s del sospechoso pueden observarse juegos
-      de cubiertos ba\xF1ados en plata, reflectores de la luz blanca que ca\xEDa
-      del techo como una cascada. \u2018\u2018Todas son potenciales armas\u2019\u2019.
-      El detective ya no cre\xEDa en las casualidades, la habitaci\xF3n fue elegida
-      por Roberto para ser interrogado. \u2018\u2018Necesito un vaso de agua\u2019\u2019,
-      argument\xF3 el sospechoso.)\r\n"
-    m_Metadata:
-      m_Items: []
-  - m_Id: 27885820858368
-    m_Localized: "Reconoce la caja, \xBFno es as\xED?\r\n"
-    m_Metadata:
-      m_Items: []
-  - m_Id: 28168856686592
-    m_Localized: '.................................
-
-'
-    m_Metadata:
-      m_Items: []
-  - m_Id: 28304496283648
-    m_Localized: Si.
-    m_Metadata:
-      m_Items: []
-  - m_Id: 28763000819712
-    m_Localized: "Es una caja demasiado chica para ser de zapatos de su proveniencia.
-      \xBFTiene hijos Roberto?\r\n"
-    m_Metadata:
-      m_Items: []
-  - m_Id: 28863261462528
-    m_Localized: ............................
-    m_Metadata:
-      m_Items: []
-  - m_Id: 28920169779200
+  - m_Id: 190266994085888
     m_Localized: No.
     m_Metadata:
       m_Items: []
-  - m_Id: 29269538525184
-    m_Localized: "Cuando sub\xED a su cuarto a buscarlo la encontr\xE9 abierta asom\xE1ndose
-      por debajo de su cama. \xBFUsted la abri\xF3 hoy por casualidad?\r\n"
+  - m_Id: 190258987159552
+    m_Localized: "\xBFUsted escuch\xF3 agua corriendo del ba\xF1o d\xF3nde se encontraba
+      Juanita?"
     m_Metadata:
       m_Items: []
-  - m_Id: 29493749239808
+  - m_Id: 190252263690240
     m_Localized: No.
     m_Metadata:
       m_Items: []
-  - m_Id: 29699706343424
-    m_Localized: "\xBFUsted la not\xF3 cuando subi\xF3 a su cuarto tras la cena?"
-    m_Metadata:
-      m_Items: []
-  - m_Id: 29881638473728
-    m_Localized: No.
-    m_Metadata:
-      m_Items: []
-  - m_Id: 30450490953728
-    m_Localized: "\xBFSubi\xF3 a su cuarto tras la cena?\r\n"
-    m_Metadata:
-      m_Items: []
-  - m_Id: 30546154639360
-    m_Localized: Si.
-    m_Metadata:
-      m_Items: []
-  - m_Id: 30675876073472
-    m_Localized: "\xBFPor qu\xE9?"
-    m_Metadata:
-      m_Items: []
-  - m_Id: 30866297475072
-    m_Localized: 'Necesitaba cargar mi celular.
-
-'
-    m_Metadata:
-      m_Items: []
-  - m_Id: 30980252520448
-    m_Localized: "\xBFEsperaba la llamada de alguien, deb\xEDa salir a alg\xFAn lado?
-      Digo, es su casa, \xBFno pod\xEDa cargarlo cuando la gente se fuera?\r\n"
-    m_Metadata:
-      m_Items: []
-  - m_Id: 31116655480832
-    m_Localized: "Decid\xED aprovechar el tiempo muerto.\r\n"
-    m_Metadata:
-      m_Items: []
-  - m_Id: 31234628669440
-    m_Localized: "\xBFPor qu\xE9 hubo tiempo muerto?\r\n"
-    m_Metadata:
-      m_Items: []
-  - m_Id: 31335027724288
-    m_Localized: "Juana y Jorge se retiraron de la mesa porque Juana se sent\xEDa
-      mal."
-    m_Metadata:
-      m_Items: []
-  - m_Id: 31566591053824
-    m_Localized: "Cu\xE1ndo subi\xF3, \xBFsu placard estaba abierto o cerrado?\r\n"
-    m_Metadata:
-      m_Items: []
-  - m_Id: 31704696901632
-    m_Localized: 'No recuerdo.
-
-'
-    m_Metadata:
-      m_Items: []
-  - m_Id: 31831603957760
-    m_Localized: "\xBFNo recuerda haber visto desorden en su habitaci\xF3n?\r\n"
-    m_Metadata:
-      m_Items: []
-  - m_Id: 31967436492800
-    m_Localized: No.
-    m_Metadata:
-      m_Items: []
-  - m_Id: 32091424313344
-    m_Localized: "\xBFLa puerta estaba abierta o cerrada?\r\n"
-    m_Metadata:
-      m_Items: []
-  - m_Id: 32286509780992
-    m_Localized: "\xBFDe qu\xE9?"
-    m_Metadata:
-      m_Items: []
-  - m_Id: 32479951081472
-    m_Localized: 'De su cuarto.
-
-'
-    m_Metadata:
-      m_Items: []
-  - m_Id: 32624306442240
-    m_Localized: 'Cerrada. Yo siempre dejo la puerta de mi cuarto cerrada cuando
-      hay invitados.
-
-'
-    m_Metadata:
-      m_Items: []
-  - m_Id: 32776211550208
+  - m_Id: 190234685362176
     m_Localized: "\xBFCon llave?"
     m_Metadata:
       m_Items: []
-  - m_Id: 33046295367680
-    m_Localized: 'No.
-
-'
+  - m_Id: 190220542169088
+    m_Localized: Cerrada. Yo siempre dejo la puerta de mi cuarto cerrada cuando hay
+      invitados.
     m_Metadata:
       m_Items: []
-  - m_Id: 33154781040640
-    m_Localized: "\xBFUsted escuch\xF3 agua corriendo del ba\xF1o d\xF3nde se encontraba
-      Juanita?\r\n\r\n"
+  - m_Id: 190214934384640
+    m_Localized: De su cuarto.
     m_Metadata:
       m_Items: []
-  - m_Id: 33314365919232
-    m_Localized: "No. La casa es grande, mi habitaci\xF3n y ese ba\xF1o est\xE1n
-      en extremos separados, no escuch\xE9 nada de lo que pas\xF3 hasta el disparo.\r\n"
+  - m_Id: 190207850205184
+    m_Localized: "\xBFDe qu\xE9?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190201441308672
+    m_Localized: "\xBFLa puerta estaba abierta o cerrada?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190195464425472
+    m_Localized: No.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190189567234048
+    m_Localized: "\xBFNo recuerda haber visto desorden en su habitaci\xF3n?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190183540019200
+    m_Localized: No lo recuerdo.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190167442280448
+    m_Localized: "Cu\xE1ndo subi\xF3, \xBFsu placard estaba abierto o cerrado?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190160601370624
+    m_Localized: "Juana y Jorge se retiraron de la mesa porque Juana se sent\xEDa
+      mal.\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190154641264640
+    m_Localized: "\xBFPor qu\xE9 hubo tiempo muerto?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190148563718144
+    m_Localized: "Decid\xED aprovechar el tiempo muerto."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190142888824832
+    m_Localized: "Digo, es su casa, \xBFno pod\xEDa cargarlo cuando la gente se fuera?\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190137209737216
+    m_Localized: "\xBFEsperaba la llamada de alguien, deb\xEDa salir a alg\xFAn lado?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190132306595840
+    m_Localized: Necesitaba cargar mi celular.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190126409404416
+    m_Localized: "\xBFPor qu\xE9?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190120889700352
+    m_Localized: "S\xED."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190101507821568
+    m_Localized: "\xBFSubi\xF3 a su cuarto tras la cena?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190092615897088
+    m_Localized: No.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190085636575232
+    m_Localized: "\xBFUsted la not\xF3 cuando subi\xF3 a su cuarto tras la cena?\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190060915347456
+    m_Localized: No.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190048818974720
+    m_Localized: "Cuando sub\xED a su cuarto a buscarlo la encontr\xE9 abierta asom\xE1ndose
+      por debajo de su cama. \xBFUsted la abri\xF3 hoy por casualidad?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190042644959232
+    m_Localized: No.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190033975332864
+    m_Localized: "(vuelve a tomarse su tiempo, pero responde m\xE1s en\xE9rgico)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190027830677504
+    m_Localized: "Es una caja demasiado chica para ser de zapatos de su proveniencia.
+      \xBFTiene hijos Roberto?\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190018724843520
+    m_Localized: Si
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190010344624128
+    m_Localized: "(vacila por varios segundos, a\xFAn no le dirige la mirada a su
+      interlocutor. Finalmente decide hablar)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33446977228800
+    m_Localized: "Reconoce la caja, \xBFno es as\xED?\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190285042176000
+    m_Localized: Quise decir hasta el primer disparo.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190290662543360
+    m_Localized: "\xBFEntonces los escuch\xF3?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190304612798464
+    m_Localized: "S\xED"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190310187028480
+    m_Localized: "\xBFY qu\xE9 hizo despu\xE9s?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190325684981760
+    m_Localized: "Primero aguard\xE9 unos segundos, al principio no entend\xED lo
+      que hab\xEDa pasado, me asust\xE9."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190334006480896
+    m_Localized: "Luego sal\xED corriendo hacia la direcci\xF3n del ba\xF1o."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190344639041536
+    m_Localized: "\xBFSe encontr\xF3 con alguien en el ba\xF1o?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190351916158976
+    m_Localized: No.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190358689959936
+    m_Localized: "Pero s\xED me encontr\xE9 con mi hermano en el final de las escaleras."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190363928645632
+    m_Localized: "\xBF\xC9l ya estaba arriba?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190373411966976
+    m_Localized: No, las terminaba de subir.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190390025605120
+    m_Localized: "\xBFEscuch\xF3 sus pasos cuando usted corr\xEDa por el pasillo?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 204873188003840
+    m_Localized: "Solo los \xFAltimos escalones.\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 204881756966912
+    m_Localized: "\xBFLo vi\xF3 subirlos desde el principio?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 204887029207040
+    m_Localized: "No, los pasos los escuch\xE9 sin verlo. Lo v\xED reci\xE9n cuando
+      terminaba de subir el \xFAltimo escal\xF3n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 204893056421888
+    m_Localized: "\xBFQui\xE9n entr\xF3 primero al ba\xF1o?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 204899222048768
+    m_Localized: "\xC9l abri\xF3 la puerta."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 204905387675648
+    m_Localized: "\xBFC\xF3mo reaccion\xF3?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 204911200980992
+    m_Localized: "No grit\xF3, apenas unas l\xE1grimas. Estaba en estado de shock.
+      Se inclin\xF3 sobre ella pero no la toc\xF3, no le habl\xF3."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 204917064617984
+    m_Localized: "\xBFY usted?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 204922919866368
+    m_Localized: "Yo no pude entrar al ba\xF1o. Cuando la vi simplemente mis rodillas
+      se rindieron. Vomit\xE9, por eso necesitaba el vaso con agua.\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 204927957225472
+    m_Localized: "Su hermano no me dijo que usted se encontraba con \xE9l."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205110120042496
+    m_Localized: "Probablemente ni lo not\xF3, nunca me ha notado demasiado."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205116176617472
+    m_Localized: "\xBFSe ha sentido muy ignorado durante su vida?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205129841659904
+    m_Localized: (Otra vez hizo una pausa larga)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205136296693760
+    m_Localized: "Puede ser\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205143729000448
+    m_Localized: "\xBFQu\xE9 sent\xEDa por Juanita?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205270715748352
+    m_Localized: "\xBFA qu\xE9 se refiere?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205276814266368
+    m_Localized: "Pregunto por su relaci\xF3n con ella. Debe entender que necesito
+      encontrar motivos del asesinato de una gata tan querida por su familia.\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205298637230080
+    m_Localized: "Siempre me cay\xF3 bien, siempre fue buena conmigo."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205305356505088
+    m_Localized: "\xBFAlguna vez lo toc\xF3?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205313870942208
+    m_Localized: "\xBFComo un abrazo o darnos la mano? Si, como en cualquier saludo."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205319394840576
+    m_Localized: "\xBFSinti\xF3 algo?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205323740139520
+    m_Localized: "\xBFQu\xE9 quiere decir?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205329343729664
+    m_Localized: "Digo, era muy atractiva, nadie lo culpar\xEDa por reacciones naturales
+      del cuerpo."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205334834073600
+    m_Localized: "\xBFC\xF3mo se atreve?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205342677422080
+    m_Localized: "\xBFA qu\xE9? \xBFA insinuar que usted sent\xEDa algo m\xE1s por
+      la esposa de su hermano?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205519949680640
+    m_Localized: Solo cierre la boca.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205526505377792
+    m_Localized: "\xBFLo atormentan esas emociones? \xBFAcaso lo aterra ese sentimiento
+      de ignorancia? Entiendo que no solo su hermano lo ignoraba, sino la mujer de
+      sus sue\xF1os. Es curioso que hayan terminado juntos."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205532259962880
+    m_Localized: (Dirigiendo una mirada asesina)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205538643693568
+    m_Localized: "C\xE1llese."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205548559028224
+    m_Localized: "Apuesto a que habr\xE1 so\xF1ado mil veces con el d\xEDa de abrir
+      la puerta de ese ba\xF1o y encontrarlo muerto a su hermano. \xBFO las cosas
+      en realidad salieron como usted siempre quiso? \xBFLleg\xF3 a odiarla por no
+      amarlo?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205557652279296
+    m_Localized: (Golpeando con un simple manotazo y haciendo volar por los aires
+      a la caja)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205574140088320
+    m_Localized: <b>QUE CIERRE LA BOCA.</b>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205580096000000
+    m_Localized: "(Otto retrocedi\xF3 un paso. Consigui\xF3 la reacci\xF3n, no la
+      que esperaba. Esperaba que agarrara un cuchillo y se lo clavara entre ceja
+      y ceja).\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205585150136320
+    m_Localized: (actuando como si nada hubiera pasado)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205590850195456
+    m_Localized: "\xBFSab\xEDa qu\xE9 hab\xEDa en esa caja? Porque yo s\xED.\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205913761271808
+    m_Localized: "S\xED."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205920652513280
+    m_Localized: "\xBFLe gustaba practicar tiro?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205928135151616
+    m_Localized: "No. La ten\xEDa por defensa personal. Casa grande, vivo solo."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205935118667776
+    m_Localized: "Buena elecci\xF3n. Una subcompacta no requiere de precisi\xF3n,
+      es para atacar de cerca.\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205946648809472
+    m_Localized: "Lo s\xE9, por eso la compr\xE9."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 206039913353216
+    m_Localized: "(Nota que una l\xEDnea de sangre le recorre la sien)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 206046565519360
+    m_Localized: "\xBFEst\xE1 herido?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 206052315910144
+    m_Localized: "S\xED, me golpe\xE9 contra la punta de la mesa de luz cuando me
+      agach\xE9 a cargar el celular. Puede verificar mi cuarto si quiere."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 206060272504832
+    m_Localized: No se preocupe, le creo.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 206067016945664
+    m_Localized: "(Roberto intenta reprimir un llanto. Otto puede escucharlo sollozar
+      mientras se retira de la cocina)\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 206073723637760
+    m_Localized: "Lamento su p\xE9rdida."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 206080786845696
+    m_Localized: "\u2018\u2018Esta familia contiene muchos secretos\u2019\u2019,
+      pens\xF3 Otto."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 206087145410560
+    m_Localized: "Celos por todos lados, un embarazo que la v\xEDctima no deseaba,
+      un esposo que pasa de fr\xEDo a atento en un segundo, un primo que responde
+      demasiado con las palabras \u2018\u2018no s\xE9\u2019\u2019 a cada pregunta
+      que le hago sobre la que se supone era su mejor amiga, y ahora un hermano que
+      siempre estuvo enamorado de su cu\xF1ada. \r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 206242531790848
+    m_Localized: "Este acto de la familia perfecta termin\xF3 en el momento en que
+      alguno de ellos dej\xF3 de jugar el papel trayendo consigo las peores consecuencias
+      de guardar secretos durante mucho tiempo. \r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 206251461464064
+    m_Localized: "Era el turno de interrogar a Roberto, el hermano de Jorge, el primo
+      de Juan, el admirador secreto de Juanita. Cuando Otto ingres\xF3 en la cocina
+      entendi\xF3 perfectamente a lo que se enfrentaba, una estatua de piedra que
+      no dir\xEDa nada, al menos no de utilidad. Cara serena, ojos penetrantes."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 206257685811200
+    m_Localized: "Un pelaje gris y misterioso como su ser se exhib\xEDa. Desplazaba
+      las palabras fuera de su boca con quietud, como si el tiempo fuera por detr\xE1s
+      de \xE9l.\r\nSobre la isla de m\xE1rmol blanco, que representaba el abismo
+      entre Otto y su fuente de la verdad, hab\xEDa una caja de zapatos vac\xEDa.\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 206264031793152
+    m_Localized: "Roberto no le sacaba los ojos de encima. Parec\xEDa petrificado
+      cuando Otto la deposit\xF3 frente a \xE9l.\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 206270113533952
+    m_Localized: "Sobre la mesada detr\xE1s del sospechoso pueden observarse juegos
+      de cubiertos ba\xF1ados en plata, reflectores de la luz blanca que ca\xEDa
+      del techo como una cascada."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 206279160647680
+    m_Localized: "\"Todas son potenciales armas\u2019\u2019."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 206286521651200
+    m_Localized: "El detective ya no cre\xEDa en las casualidades, la habitaci\xF3n
+      fue elegida por Roberto para ser interrogado. \u2018\u2018Necesito un vaso
+      de agua\u2019\u2019, argument\xF3 el sospechoso."
     m_Metadata:
       m_Items: []
   references:

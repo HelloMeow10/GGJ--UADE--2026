@@ -15,140 +15,404 @@ MonoBehaviour:
   m_TableCollectionName: DialogueRoberto
   m_TableCollectionNameGuidString: 9b6a3b69669a35945abb8f99f2103071
   m_Entries:
-  - m_Id: 12254859264
-    m_Key: RobertoLinea00
-    m_Metadata:
-      m_Items: []
-  - m_Id: 27540520587264
-    m_Key: RobertoLinea01
-    m_Metadata:
-      m_Items: []
-  - m_Id: 27687002460160
-    m_Key: RobertoLinea02
-    m_Metadata:
-      m_Items: []
-  - m_Id: 27885820858368
-    m_Key: RobertoLinea03
-    m_Metadata:
-      m_Items: []
-  - m_Id: 28168856686592
-    m_Key: RobertoLinea04
-    m_Metadata:
-      m_Items: []
-  - m_Id: 28304496283648
-    m_Key: RobertoLinea05
-    m_Metadata:
-      m_Items: []
-  - m_Id: 28763000819712
-    m_Key: RobertoLinea06
-    m_Metadata:
-      m_Items: []
-  - m_Id: 28863261462528
-    m_Key: RobertoLinea07
-    m_Metadata:
-      m_Items: []
-  - m_Id: 28920169779200
-    m_Key: RobertoLinea08
-    m_Metadata:
-      m_Items: []
-  - m_Id: 29269538525184
-    m_Key: RobertoLinea09
-    m_Metadata:
-      m_Items: []
-  - m_Id: 29493749239808
-    m_Key: RobertoLinea10
-    m_Metadata:
-      m_Items: []
-  - m_Id: 29699706343424
-    m_Key: RobertoLinea11
-    m_Metadata:
-      m_Items: []
-  - m_Id: 29881638473728
-    m_Key: RobertoLinea12
-    m_Metadata:
-      m_Items: []
-  - m_Id: 30450490953728
-    m_Key: RobertoLinea13
-    m_Metadata:
-      m_Items: []
-  - m_Id: 30546154639360
-    m_Key: RobertoLinea14
-    m_Metadata:
-      m_Items: []
-  - m_Id: 30675876073472
-    m_Key: RobertoLinea15
-    m_Metadata:
-      m_Items: []
-  - m_Id: 30866297475072
-    m_Key: RobertoLinea16
-    m_Metadata:
-      m_Items: []
-  - m_Id: 30980252520448
-    m_Key: RobertoLinea17
-    m_Metadata:
-      m_Items: []
-  - m_Id: 31116655480832
-    m_Key: RobertoLinea18
-    m_Metadata:
-      m_Items: []
-  - m_Id: 31234628669440
-    m_Key: RobertoLinea19
-    m_Metadata:
-      m_Items: []
-  - m_Id: 31335027724288
-    m_Key: RobertoLinea20
-    m_Metadata:
-      m_Items: []
-  - m_Id: 31566591053824
-    m_Key: RobertoLinea21
-    m_Metadata:
-      m_Items: []
-  - m_Id: 31704696901632
-    m_Key: RobertoLinea22
-    m_Metadata:
-      m_Items: []
-  - m_Id: 31831603957760
-    m_Key: RobertoLinea23
-    m_Metadata:
-      m_Items: []
-  - m_Id: 31967436492800
-    m_Key: RobertoLinea24
-    m_Metadata:
-      m_Items: []
-  - m_Id: 32091424313344
-    m_Key: RobertoLinea25
-    m_Metadata:
-      m_Items: []
-  - m_Id: 32286509780992
-    m_Key: RobertoLinea26
-    m_Metadata:
-      m_Items: []
-  - m_Id: 32479951081472
-    m_Key: RobertoLinea27
-    m_Metadata:
-      m_Items: []
-  - m_Id: 32624306442240
-    m_Key: RobertoLinea28
-    m_Metadata:
-      m_Items: []
-  - m_Id: 32776211550208
-    m_Key: RobertoLinea29
-    m_Metadata:
-      m_Items: []
-  - m_Id: 33046295367680
-    m_Key: RobertoLinea30
-    m_Metadata:
-      m_Items: []
-  - m_Id: 33154781040640
-    m_Key: RobertoLinea31
-    m_Metadata:
-      m_Items: []
-  - m_Id: 33314365919232
-    m_Key: RobertoLinea32
-    m_Metadata:
-      m_Items: []
   - m_Id: 33446977228800
-    m_Key: RobertoLinea33
+    m_Key: Roberto_DialogueLine01
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190010344624128
+    m_Key: Roberto_DialogueLine02
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190018724843520
+    m_Key: Roberto_DialogueLine03
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190027830677504
+    m_Key: Roberto_DialogueLine04
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190033975332864
+    m_Key: Roberto_DialogueLine05
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190042644959232
+    m_Key: Roberto_DialogueLine06
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190048818974720
+    m_Key: Roberto_DialogueLine07
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190060915347456
+    m_Key: Roberto_DialogueLine08
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190085636575232
+    m_Key: Roberto_DialogueLine09
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190092615897088
+    m_Key: Roberto_DialogueLine10
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190101507821568
+    m_Key: Roberto_DialogueLine11
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190120889700352
+    m_Key: Roberto_DialogueLine12
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190126409404416
+    m_Key: Roberto_DialogueLine13
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190132306595840
+    m_Key: Roberto_DialogueLine14
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190137209737216
+    m_Key: Roberto_DialogueLine15
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190142888824832
+    m_Key: Roberto_DialogueLine16
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190148563718144
+    m_Key: Roberto_DialogueLine17
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190154641264640
+    m_Key: Roberto_DialogueLine18
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190160601370624
+    m_Key: Roberto_DialogueLine19
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190167442280448
+    m_Key: Roberto_DialogueLine20
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190183540019200
+    m_Key: Roberto_DialogueLine21
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190189567234048
+    m_Key: Roberto_DialogueLine22
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190195464425472
+    m_Key: Roberto_DialogueLine23
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190201441308672
+    m_Key: Roberto_DialogueLine24
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190207850205184
+    m_Key: Roberto_DialogueLine25
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190214934384640
+    m_Key: Roberto_DialogueLine26
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190220542169088
+    m_Key: Roberto_DialogueLine27
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190234685362176
+    m_Key: Roberto_DialogueLine28
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190252263690240
+    m_Key: Roberto_DialogueLine29
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190258987159552
+    m_Key: Roberto_DialogueLine30
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190266994085888
+    m_Key: Roberto_DialogueLine31
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190272916443136
+    m_Key: Roberto_DialogueLine32
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190279765741568
+    m_Key: Roberto_DialogueLine33
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190285042176000
+    m_Key: Roberto_DialogueLine34
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190290662543360
+    m_Key: Roberto_DialogueLine35
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190304612798464
+    m_Key: Roberto_DialogueLine36
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190310187028480
+    m_Key: Roberto_DialogueLine37
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190325684981760
+    m_Key: Roberto_DialogueLine38
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190334006480896
+    m_Key: Roberto_DialogueLine39
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190344639041536
+    m_Key: Roberto_DialogueLine40
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190351916158976
+    m_Key: Roberto_DialogueLine41
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190358689959936
+    m_Key: Roberto_DialogueLine42
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190363928645632
+    m_Key: Roberto_DialogueLine43
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190373411966976
+    m_Key: Roberto_DialogueLine44
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190390025605120
+    m_Key: Roberto_DialogueLine45
+    m_Metadata:
+      m_Items: []
+  - m_Id: 204873188003840
+    m_Key: Roberto_DialogueLine46
+    m_Metadata:
+      m_Items: []
+  - m_Id: 204881756966912
+    m_Key: Roberto_DialogueLine47
+    m_Metadata:
+      m_Items: []
+  - m_Id: 204887029207040
+    m_Key: Roberto_DialogueLine48
+    m_Metadata:
+      m_Items: []
+  - m_Id: 204893056421888
+    m_Key: Roberto_DialogueLine49
+    m_Metadata:
+      m_Items: []
+  - m_Id: 204899222048768
+    m_Key: Roberto_DialogueLine50
+    m_Metadata:
+      m_Items: []
+  - m_Id: 204905387675648
+    m_Key: Roberto_DialogueLine51
+    m_Metadata:
+      m_Items: []
+  - m_Id: 204911200980992
+    m_Key: Roberto_DialogueLine52
+    m_Metadata:
+      m_Items: []
+  - m_Id: 204917064617984
+    m_Key: Roberto_DialogueLine53
+    m_Metadata:
+      m_Items: []
+  - m_Id: 204922919866368
+    m_Key: Roberto_DialogueLine54
+    m_Metadata:
+      m_Items: []
+  - m_Id: 204927957225472
+    m_Key: Roberto_DialogueLine55
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205110120042496
+    m_Key: Roberto_DialogueLine56
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205116176617472
+    m_Key: Roberto_DialogueLine57
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205129841659904
+    m_Key: Roberto_DialogueLine58
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205136296693760
+    m_Key: Roberto_DialogueLine59
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205143729000448
+    m_Key: Roberto_DialogueLine60
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205270715748352
+    m_Key: Roberto_DialogueLine61
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205276814266368
+    m_Key: Roberto_DialogueLine62
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205298637230080
+    m_Key: Roberto_DialogueLine63
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205305356505088
+    m_Key: Roberto_DialogueLine64
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205313870942208
+    m_Key: Roberto_DialogueLine65
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205319394840576
+    m_Key: Roberto_DialogueLine66
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205323740139520
+    m_Key: Roberto_DialogueLine67
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205329343729664
+    m_Key: Roberto_DialogueLine68
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205334834073600
+    m_Key: Roberto_DialogueLine69
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205342677422080
+    m_Key: Roberto_DialogueLine70
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205519949680640
+    m_Key: Roberto_DialogueLine71
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205526505377792
+    m_Key: Roberto_DialogueLine72
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205532259962880
+    m_Key: Roberto_DialogueLine73
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205538643693568
+    m_Key: Roberto_DialogueLine74
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205548559028224
+    m_Key: Roberto_DialogueLine75
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205557652279296
+    m_Key: Roberto_DialogueLine76
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205574140088320
+    m_Key: Roberto_DialogueLine77
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205580096000000
+    m_Key: Roberto_DialogueLine78
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205585150136320
+    m_Key: Roberto_DialogueLine79
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205590850195456
+    m_Key: Roberto_DialogueLine80
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205913761271808
+    m_Key: Roberto_DialogueLine81
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205920652513280
+    m_Key: Roberto_DialogueLine82
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205928135151616
+    m_Key: Roberto_DialogueLine83
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205935118667776
+    m_Key: Roberto_DialogueLine84
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205946648809472
+    m_Key: Roberto_DialogueLine85
+    m_Metadata:
+      m_Items: []
+  - m_Id: 206039913353216
+    m_Key: Roberto_DialogueLine86
+    m_Metadata:
+      m_Items: []
+  - m_Id: 206046565519360
+    m_Key: Roberto_DialogueLine87
+    m_Metadata:
+      m_Items: []
+  - m_Id: 206052315910144
+    m_Key: Roberto_DialogueLine88
+    m_Metadata:
+      m_Items: []
+  - m_Id: 206060272504832
+    m_Key: Roberto_DialogueLine89
+    m_Metadata:
+      m_Items: []
+  - m_Id: 206067016945664
+    m_Key: Roberto_DialogueLine90
+    m_Metadata:
+      m_Items: []
+  - m_Id: 206073723637760
+    m_Key: Roberto_DialogueLine91
+    m_Metadata:
+      m_Items: []
+  - m_Id: 206080786845696
+    m_Key: Roberto_Introduction01
+    m_Metadata:
+      m_Items: []
+  - m_Id: 206087145410560
+    m_Key: Roberto_Introduction02
+    m_Metadata:
+      m_Items: []
+  - m_Id: 206242531790848
+    m_Key: Roberto_Introduction03
+    m_Metadata:
+      m_Items: []
+  - m_Id: 206251461464064
+    m_Key: Roberto_Introduction04
+    m_Metadata:
+      m_Items: []
+  - m_Id: 206257685811200
+    m_Key: Roberto_Introduction05
+    m_Metadata:
+      m_Items: []
+  - m_Id: 206264031793152
+    m_Key: Roberto_Introduction06
+    m_Metadata:
+      m_Items: []
+  - m_Id: 206270113533952
+    m_Key: Roberto_Introduction07
+    m_Metadata:
+      m_Items: []
+  - m_Id: 206279160647680
+    m_Key: Roberto_Introduction08
+    m_Metadata:
+      m_Items: []
+  - m_Id: 206286521651200
+    m_Key: Roberto_Introduction09
     m_Metadata:
       m_Items: []
   m_Metadata:

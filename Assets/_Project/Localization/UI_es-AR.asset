@@ -34,6 +34,58 @@ MonoBehaviour:
     m_Localized: Jugar
     m_Metadata:
       m_Items: []
+  - m_Id: 121043450089472
+    m_Localized: Hablar con...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 121177827201024
+    m_Localized: Notas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 121239441526784
+    m_Localized: Salir
+    m_Metadata:
+      m_Items: []
+  - m_Id: 121294630178816
+    m_Localized: "\xBFQui\xE9n es el asesino?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 121610998140928
+    m_Localized: Confirmar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122086065983488
+    m_Localized: Nueva entrada
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122146052919296
+    m_Localized: Cancelar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122349942231040
+    m_Localized: Guardar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122456506912768
+    m_Localized: Escribir algo...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122600719667200
+    m_Localized: Asignar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122627278000128
+    m_Localized: Modificar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122672702312448
+    m_Localized: Borrar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122997580517376
+    m_Localized: Asignando a...
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

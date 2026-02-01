@@ -31,6 +31,58 @@ MonoBehaviour:
     m_Key: UI_Play
     m_Metadata:
       m_Items: []
+  - m_Id: 121043450089472
+    m_Key: UI_TalkTo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 121177827201024
+    m_Key: UI_Notepad
+    m_Metadata:
+      m_Items: []
+  - m_Id: 121239441526784
+    m_Key: UI_Exit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 121294630178816
+    m_Key: UI_WhosAssassin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 121610998140928
+    m_Key: UI_Confirm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122086065983488
+    m_Key: UI_AddEntry
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122146052919296
+    m_Key: UI_Cancel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122349942231040
+    m_Key: UI_Save
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122456506912768
+    m_Key: UI_WritteSomething
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122600719667200
+    m_Key: UI_Assign
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122627278000128
+    m_Key: UI_Modify
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122672702312448
+    m_Key: UI_Delete
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122997580517376
+    m_Key: UI_AssigningTo
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

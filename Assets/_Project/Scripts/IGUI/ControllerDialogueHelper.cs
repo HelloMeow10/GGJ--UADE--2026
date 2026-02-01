@@ -38,12 +38,21 @@ public class ControllerDialogueHelper : MonoBehaviour
 
     private void OnDialogueStart(Assassin character)
     {
+        if (character != _dialogueData.Character)
+        {
+            CanvasGroupStatus(false);
+            return;
+        }
+
         #if UNITY_EDITOR
         Debug.Log($"[ControllerDialogueHelper] Starting dialogue with character {character}");
         #endif
 
         _canSkip = true; // Allow skipping from the first line
+        GameManager.OnDialogueStart -= OnDialogueStart;
         StartCoroutine(TalkingCoroutine());
+
+        CanvasGroupStatus(true);
     }
 
     private string GetTalkerName(TalkerType talker)
@@ -70,7 +79,7 @@ public class ControllerDialogueHelper : MonoBehaviour
             string fullText = stringOperation.Result;
 
             // Display text progressively with typewriter effect
-            yield return StartCoroutine(TypewriterEffect(talkerName, fullText));
+            yield return StartCoroutine(TypewriterEffect(talkerName, fullText, dialogueLine.Talker));
 
             // Small delay to prevent accidental skipping
             _canSkip = false;
@@ -89,16 +98,24 @@ public class ControllerDialogueHelper : MonoBehaviour
         // Dialogue ended
         GameManager.IsInDialogueMode = false;
         GameManager.OnDialogueEnd?.Invoke();
+        ControllerTalkSelection.OnRequestUnlockNextCharacter?.Invoke();
 
         // Force switch tab back to chat selector & reset index
         ControllerIGUI.OnTabChange?.Invoke(IGUITab.ChatSelector);
         _currentLineIndex = 0;
+        GameManager.OnDialogueStart += OnDialogueStart;
+        CanvasGroupStatus(false);
+
+        StopAllCoroutines();
     }
 
-    private IEnumerator TypewriterEffect(string talkerName, string fullText)
+    private IEnumerator TypewriterEffect(string talkerName, string fullText, TalkerType talker)
     {
         string currentText = "";
         bool insideTag = false;
+
+        if (talker == TalkerType.Narrator)
+            fullText = $"<i>{fullText}</i>";
         
         for (int i = 0; i < fullText.Length; i++)
         {
@@ -107,33 +124,40 @@ public class ControllerDialogueHelper : MonoBehaviour
             
             // Track when we're inside a rich text tag
             if (currentChar == '<')
-            {
                 insideTag = true;
-            }
+
             else if (currentChar == '>')
             {
                 insideTag = false;
+
                 // Display immediately after closing the tag
-                ControllerDialogue.OnDialogueText?.Invoke(talkerName, currentText);
+                ControllerDialogue.OnDialogueText?.Invoke(talkerName, currentText, talker, _suspectPortrait);
                 continue;
             }
             
             // Only update display and wait if we're not inside a tag
             if (!insideTag)
             {
-                ControllerDialogue.OnDialogueText?.Invoke(talkerName, currentText);
+                ControllerDialogue.OnDialogueText?.Invoke(talkerName, currentText, talker, _suspectPortrait);
                 
                 // Allow skipping the typewriter effect
                 if (Input.anyKeyDown && _canSkip 
                 && !GameManager.IsHoveringIGUIButtons 
                 && GameManager.CurrentIGUITab == IGUITab.Dialogue)
                 {
-                    ControllerDialogue.OnDialogueText?.Invoke(talkerName, fullText);
+                    ControllerDialogue.OnDialogueText?.Invoke(talkerName, fullText, talker, _suspectPortrait);
                     yield break;
                 }
                 
                 yield return GameManager.TypewriterDelay;
             }
         }
+    }
+
+    private void CanvasGroupStatus(bool isEnabled)
+    {
+        _selfCanvasGroup.alpha = isEnabled ? 1f : 0f;
+        _selfCanvasGroup.interactable = isEnabled;
+        _selfCanvasGroup.blocksRaycasts = isEnabled;
     }
 }

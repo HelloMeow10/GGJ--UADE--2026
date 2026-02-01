@@ -34,6 +34,58 @@ MonoBehaviour:
     m_Localized: Play
     m_Metadata:
       m_Items: []
+  - m_Id: 121043450089472
+    m_Localized: Talk to...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 121177827201024
+    m_Localized: Notepad
+    m_Metadata:
+      m_Items: []
+  - m_Id: 121239441526784
+    m_Localized: Exit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 121294630178816
+    m_Localized: Who's the assassin?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 121610998140928
+    m_Localized: Confirm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122086065983488
+    m_Localized: New entry
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122146052919296
+    m_Localized: Cancel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122349942231040
+    m_Localized: Save
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122456506912768
+    m_Localized: Write something...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122600719667200
+    m_Localized: Assign
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122627278000128
+    m_Localized: Modify
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122672702312448
+    m_Localized: Delete
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122997580517376
+    m_Localized: Assigning to...
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

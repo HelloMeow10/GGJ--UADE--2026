@@ -16,12 +16,14 @@ public class ControllerDialogue : BaseTabController
 
     [Header("Chat Canvas Groups")]
     [SerializeField] private CanvasGroup _chatJorge;
+    [SerializeField] private CanvasGroup _chatJuan;
+
 
     [Header("Others")]
     public Color nonTalkerColor = new(1f, 1f, 1f, 0.5f);
     public Color talkerColor = Color.white;
 
-    public static Action<string, string> OnDialogueText;
+    public static Action<string, string, TalkerType, Image> OnDialogueText;
 
     protected override void Awake()
     {
@@ -51,10 +53,33 @@ public class ControllerDialogue : BaseTabController
         ControllerIGUI.OnTabChange?.Invoke(IGUITab.AssassinSelector);
     }
 
-    private void SetDialogueText(string talkerName, string dialogueLine)
+    private void SetDialogueText(string talkerName, string dialogueLine, TalkerType talker, Image suspectPortrait)
     {
         _talkerNameText.text = talkerName;
         _dialogueText.text = dialogueLine;
+
+        // Update sprite color based on who is talking
+        _playerPortrait.color = nonTalkerColor;
+        if (suspectPortrait != null)
+            suspectPortrait.color = nonTalkerColor;
+
+        switch (talker)
+        {
+            case TalkerType.Player:
+                _playerPortrait.color = talkerColor;
+                //_dialogueText.alignment = TextAlignmentOptions.TopRight;
+                break;
+            case TalkerType.Character:
+                if (suspectPortrait != null)
+                    suspectPortrait.color = talkerColor;
+
+                //_dialogueText.alignment = TextAlignmentOptions.TopLeft;
+                break;
+
+            case TalkerType.Narrator:
+                //_dialogueText.alignment = TextAlignmentOptions.TopJustified;
+                break;
+        }
     }
 
     public override void OnExitTab()

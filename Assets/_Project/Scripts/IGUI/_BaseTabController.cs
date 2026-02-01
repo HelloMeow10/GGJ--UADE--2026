@@ -14,10 +14,11 @@ public class BaseTabController : MonoBehaviour
         _canvasGroup.alpha = show ? 1 : 0;
         _canvasGroup.blocksRaycasts = show;
         _canvasGroup.interactable = show;
+        /*
         if(music != null && show)
         {
             AudioManager.Instance.PlayMusic(music);
-        }
+        }*/
     }
 
     protected virtual void Awake()

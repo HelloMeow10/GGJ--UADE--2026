@@ -14,6 +14,7 @@ public class ControllerDialogue : BaseTabController
     [SerializeField] private TextMeshProUGUI _dialogueText;
     [SerializeField] private Image _playerPortrait;
     [SerializeField] private Image _playerMouth;
+    [SerializeField] private Image _playerMouthExtra;
     [SerializeField] private Image _playerEyes;
 
     [Header("Others")]
@@ -59,12 +60,13 @@ public class ControllerDialogue : BaseTabController
 
         // Update sprite color based on who is talking
         _playerPortrait.color = nonTalkerColor;
-        if (suspectPortrait != null)
-            suspectPortrait.color = nonTalkerColor;
-        if (suspectMouth != null)
-            suspectMouth.color = nonTalkerColor;
-        if (suspectEyes != null)
-            suspectEyes.color = nonTalkerColor;
+        _playerEyes.color = nonTalkerColor;
+        _playerMouth.color = nonTalkerColor;
+        _playerMouthExtra.color = nonTalkerColor;
+
+        suspectPortrait.color = nonTalkerColor;
+        suspectMouth.color = nonTalkerColor;
+        suspectEyes.color = nonTalkerColor;
 
         switch (talker)
         {
@@ -74,14 +76,9 @@ public class ControllerDialogue : BaseTabController
                 _playerMouth.color = talkerColor;
                 break;
             case TalkerType.Character:
-                if (suspectPortrait != null)
-                    suspectPortrait.color = talkerColor;
-
-                if (suspectMouth != null)
-                    suspectMouth.color = talkerColor;
-
-                if (suspectEyes != null)
-                    suspectEyes.color = talkerColor;
+                suspectPortrait.color = talkerColor;
+                suspectMouth.color = talkerColor;
+                suspectEyes.color = talkerColor;
                 break;
         }
     }

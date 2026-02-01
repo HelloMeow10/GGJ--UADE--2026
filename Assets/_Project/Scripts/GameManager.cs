@@ -4,6 +4,7 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     public static IGUITab CurrentIGUITab = IGUITab.ChatSelector;
+    public static Assassin CurrentTalkingCharacter = Assassin.Jorge;
 
     public static Assassin SelectedAssassin = Assassin.Jorge;
     public static bool IsInDialogueMode = false;

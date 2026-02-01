@@ -2217,6 +2217,7 @@ MonoBehaviour:
   _dialogueText: {fileID: 21496701}
   _playerPortrait: {fileID: 310954055}
   _playerMouth: {fileID: 277785685}
+  _playerMouthExtra: {fileID: 305731139}
   _playerEyes: {fileID: 1327466343}
   nonTalkerColor: {r: 0.58431375, g: 0.58431375, b: 0.58431375, a: 1}
   talkerColor: {r: 1, g: 1, b: 1, a: 1}
@@ -8500,6 +8501,29 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   musicSource: {fileID: 1832891556}
   sfxSource: {fileID: 1832891555}
+  _backgroundMusics:
+  - Tab: 0
+    MusicClip: {fileID: 8300000, guid: 3c853aa778693e4439709fac60a5206f, type: 3}
+    Loop: 1
+  - Tab: 2
+    MusicClip: {fileID: 8300000, guid: 414f381eebc29524787d75c8566959eb, type: 3}
+    Loop: 1
+  - Tab: 1
+    MusicClip: {fileID: 8300000, guid: d5175be7dca927e4bbe5821af2f84a5f, type: 3}
+    Loop: 1
+  _characterMusics:
+  - Tab: 3
+    MusicClip: {fileID: 8300000, guid: 338c3a40506d6f8468197ce48ab2db28, type: 3}
+    Loop: 1
+    Character: 0
+  - Tab: 3
+    MusicClip: {fileID: 8300000, guid: e097d3a85e1909549b9f1a8e05f19c70, type: 3}
+    Loop: 1
+    Character: 1
+  - Tab: 3
+    MusicClip: {fileID: 8300000, guid: 685b367fd1ff7f849a2ef5ca236ac558, type: 3}
+    Loop: 1
+    Character: 2
 --- !u!4 &1832891558
 Transform:
   m_ObjectHideFlags: 0

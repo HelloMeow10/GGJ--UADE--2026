@@ -16,6 +16,11 @@ public class ControllerIGUI : MonoBehaviour
         OnTabChange += TabChange;
     }
 
+    protected void Start()
+    {
+        AudioManager.Instance.PlayMusic();
+    }
+
     protected void OnDestroy()
     {
         OnTabChange -= TabChange;
@@ -36,6 +41,9 @@ public class ControllerIGUI : MonoBehaviour
 
         // Just in case, always force refresh size fitter.
         AssassinEntry.OnForceRefresh?.Invoke();
+
+        // Play/Change corresponding music
+        AudioManager.Instance.PlayMusic();
     }
 }
 

@@ -70,7 +70,7 @@ public class ControllerDialogueHelper : MonoBehaviour
 
         PlayerAnims.OnChangeEyeSprite?.Invoke(true);
         CanvasGroupStatus(true);
-        AudioManager.Instance.PlayMusic(music);
+        //AudioManager.Instance.PlayMusic(music);
     }
 
     private string GetTalkerName(TalkerType talker)

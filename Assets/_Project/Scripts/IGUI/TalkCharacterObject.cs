@@ -21,6 +21,8 @@ public class TalkCharacterObject : MonoBehaviour
 
     private void OnSelected()
     {
+        GameManager.CurrentTalkingCharacter = _character;
+        
         GameManager.IsInDialogueMode = true;
         GameManager.OnDialogueStart?.Invoke(_character);
         ControllerIGUI.OnTabChange?.Invoke(IGUITab.Dialogue);

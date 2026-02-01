@@ -38,12 +38,21 @@ public class ControllerDialogueHelper : MonoBehaviour
 
     private void OnDialogueStart(Assassin character)
     {
+        if (character != _dialogueData.Character)
+        {
+            CanvasGroupStatus(false);
+            return;
+        }
+
         #if UNITY_EDITOR
         Debug.Log($"[ControllerDialogueHelper] Starting dialogue with character {character}");
         #endif
 
         _canSkip = true; // Allow skipping from the first line
+        GameManager.OnDialogueStart -= OnDialogueStart;
         StartCoroutine(TalkingCoroutine());
+
+        CanvasGroupStatus(true);
     }
 
     private string GetTalkerName(TalkerType talker)
@@ -94,6 +103,9 @@ public class ControllerDialogueHelper : MonoBehaviour
         // Force switch tab back to chat selector & reset index
         ControllerIGUI.OnTabChange?.Invoke(IGUITab.ChatSelector);
         _currentLineIndex = 0;
+        GameManager.OnDialogueStart += OnDialogueStart;
+        CanvasGroupStatus(false);
+
         StopAllCoroutines();
     }
 
@@ -140,5 +152,12 @@ public class ControllerDialogueHelper : MonoBehaviour
                 yield return GameManager.TypewriterDelay;
             }
         }
+    }
+
+    private void CanvasGroupStatus(bool isEnabled)
+    {
+        _selfCanvasGroup.alpha = isEnabled ? 1f : 0f;
+        _selfCanvasGroup.interactable = isEnabled;
+        _selfCanvasGroup.blocksRaycasts = isEnabled;
     }
 }

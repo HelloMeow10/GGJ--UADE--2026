@@ -16,6 +16,8 @@ public class ControllerDialogue : BaseTabController
 
     [Header("Chat Canvas Groups")]
     [SerializeField] private CanvasGroup _chatJorge;
+    [SerializeField] private CanvasGroup _chatJuan;
+
 
     [Header("Others")]
     public Color nonTalkerColor = new(1f, 1f, 1f, 0.5f);
@@ -65,10 +67,17 @@ public class ControllerDialogue : BaseTabController
         {
             case TalkerType.Player:
                 _playerPortrait.color = talkerColor;
+                //_dialogueText.alignment = TextAlignmentOptions.TopRight;
                 break;
             case TalkerType.Character:
                 if (suspectPortrait != null)
                     suspectPortrait.color = talkerColor;
+
+                //_dialogueText.alignment = TextAlignmentOptions.TopLeft;
+                break;
+
+            case TalkerType.Narrator:
+                //_dialogueText.alignment = TextAlignmentOptions.TopJustified;
                 break;
         }
     }

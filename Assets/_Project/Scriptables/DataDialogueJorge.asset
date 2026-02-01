@@ -544,7 +544,7 @@ MonoBehaviour:
       m_FallbackState: 0
       m_WaitForCompletion: 0
       m_LocalVariables: []
-    Talker: 0
+    Talker: 1
   - Line:
       m_TableReference:
         m_TableCollectionName: GUID:189bbc61f96b7244fb603b7dad510bfc
@@ -554,7 +554,7 @@ MonoBehaviour:
       m_FallbackState: 0
       m_WaitForCompletion: 0
       m_LocalVariables: []
-    Talker: 1
+    Talker: 0
   - Line:
       m_TableReference:
         m_TableCollectionName: GUID:0282fb2867b92364091af83f4c6a4f15

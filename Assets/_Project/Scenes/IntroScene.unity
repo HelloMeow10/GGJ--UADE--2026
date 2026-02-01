@@ -170,6 +170,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0123730eaf7631446a87ff97a9964bd4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  winScene: 
+  loseScene: 
 --- !u!114 &367628400
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -514,6 +516,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0123730eaf7631446a87ff97a9964bd4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  winScene: 
+  loseScene: 
 --- !u!114 &868134695
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -980,6 +984,29 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   musicSource: {fileID: 1399297806}
   sfxSource: {fileID: 1399297805}
+  _backgroundMusics:
+  - Tab: 0
+    MusicClip: {fileID: 8300000, guid: 3c853aa778693e4439709fac60a5206f, type: 3}
+    Loop: 1
+  - Tab: 2
+    MusicClip: {fileID: 8300000, guid: 414f381eebc29524787d75c8566959eb, type: 3}
+    Loop: 1
+  - Tab: 1
+    MusicClip: {fileID: 8300000, guid: d5175be7dca927e4bbe5821af2f84a5f, type: 3}
+    Loop: 1
+  _characterMusics:
+  - Tab: 3
+    MusicClip: {fileID: 8300000, guid: 338c3a40506d6f8468197ce48ab2db28, type: 3}
+    Loop: 1
+    Character: 0
+  - Tab: 3
+    MusicClip: {fileID: 8300000, guid: e097d3a85e1909549b9f1a8e05f19c70, type: 3}
+    Loop: 1
+    Character: 1
+  - Tab: 3
+    MusicClip: {fileID: 8300000, guid: 685b367fd1ff7f849a2ef5ca236ac558, type: 3}
+    Loop: 1
+    Character: 2
 --- !u!4 &1399297808
 Transform:
   m_ObjectHideFlags: 0

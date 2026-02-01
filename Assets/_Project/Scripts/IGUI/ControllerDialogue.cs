@@ -21,7 +21,7 @@ public class ControllerDialogue : BaseTabController
     public Color nonTalkerColor = new(1f, 1f, 1f, 0.5f);
     public Color talkerColor = Color.white;
 
-    public static Action<string, string> OnDialogueText;
+    public static Action<string, string, TalkerType, Image> OnDialogueText;
 
     protected override void Awake()
     {
@@ -51,10 +51,26 @@ public class ControllerDialogue : BaseTabController
         ControllerIGUI.OnTabChange?.Invoke(IGUITab.AssassinSelector);
     }
 
-    private void SetDialogueText(string talkerName, string dialogueLine)
+    private void SetDialogueText(string talkerName, string dialogueLine, TalkerType talker, Image suspectPortrait)
     {
         _talkerNameText.text = talkerName;
         _dialogueText.text = dialogueLine;
+
+        // Update sprite color based on who is talking
+        _playerPortrait.color = nonTalkerColor;
+        if (suspectPortrait != null)
+            suspectPortrait.color = nonTalkerColor;
+
+        switch (talker)
+        {
+            case TalkerType.Player:
+                _playerPortrait.color = talkerColor;
+                break;
+            case TalkerType.Character:
+                if (suspectPortrait != null)
+                    suspectPortrait.color = talkerColor;
+                break;
+        }
     }
 
     public override void OnExitTab()

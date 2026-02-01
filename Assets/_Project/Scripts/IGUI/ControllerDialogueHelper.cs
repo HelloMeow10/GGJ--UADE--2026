@@ -70,7 +70,7 @@ public class ControllerDialogueHelper : MonoBehaviour
             string fullText = stringOperation.Result;
 
             // Display text progressively with typewriter effect
-            yield return StartCoroutine(TypewriterEffect(talkerName, fullText, dialogueLine.Talker == TalkerType.Narrator));
+            yield return StartCoroutine(TypewriterEffect(talkerName, fullText, dialogueLine.Talker));
 
             // Small delay to prevent accidental skipping
             _canSkip = false;
@@ -94,14 +94,15 @@ public class ControllerDialogueHelper : MonoBehaviour
         // Force switch tab back to chat selector & reset index
         ControllerIGUI.OnTabChange?.Invoke(IGUITab.ChatSelector);
         _currentLineIndex = 0;
+        StopAllCoroutines();
     }
 
-    private IEnumerator TypewriterEffect(string talkerName, string fullText, bool isNarrator = false)
+    private IEnumerator TypewriterEffect(string talkerName, string fullText, TalkerType talker)
     {
         string currentText = "";
         bool insideTag = false;
 
-        if (isNarrator)
+        if (talker == TalkerType.Narrator)
             fullText = $"<i>{fullText}</i>";
         
         for (int i = 0; i < fullText.Length; i++)
@@ -111,28 +112,28 @@ public class ControllerDialogueHelper : MonoBehaviour
             
             // Track when we're inside a rich text tag
             if (currentChar == '<')
-            {
                 insideTag = true;
-            }
+
             else if (currentChar == '>')
             {
                 insideTag = false;
+
                 // Display immediately after closing the tag
-                ControllerDialogue.OnDialogueText?.Invoke(talkerName, currentText);
+                ControllerDialogue.OnDialogueText?.Invoke(talkerName, currentText, talker, _suspectPortrait);
                 continue;
             }
             
             // Only update display and wait if we're not inside a tag
             if (!insideTag)
             {
-                ControllerDialogue.OnDialogueText?.Invoke(talkerName, currentText);
+                ControllerDialogue.OnDialogueText?.Invoke(talkerName, currentText, talker, _suspectPortrait);
                 
                 // Allow skipping the typewriter effect
                 if (Input.anyKeyDown && _canSkip 
                 && !GameManager.IsHoveringIGUIButtons 
                 && GameManager.CurrentIGUITab == IGUITab.Dialogue)
                 {
-                    ControllerDialogue.OnDialogueText?.Invoke(talkerName, fullText);
+                    ControllerDialogue.OnDialogueText?.Invoke(talkerName, fullText, talker, _suspectPortrait);
                     yield break;
                 }
                 

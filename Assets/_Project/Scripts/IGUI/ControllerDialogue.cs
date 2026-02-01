@@ -13,12 +13,14 @@ public class ControllerDialogue : BaseTabController
     [SerializeField] private TextMeshProUGUI _talkerNameText;
     [SerializeField] private TextMeshProUGUI _dialogueText;
     [SerializeField] private Image _playerPortrait;
+    [SerializeField] private Image _playerMouth;
+    [SerializeField] private Image _playerEyes;
 
     [Header("Others")]
     public Color nonTalkerColor = new(1f, 1f, 1f, 0.5f);
     public Color talkerColor = Color.white;
 
-    public static Action<string, string, TalkerType, Image> OnDialogueText;
+    public static Action<string, string, TalkerType, Image, Image, Image> OnDialogueText;
 
     protected override void Awake()
     {
@@ -50,7 +52,7 @@ public class ControllerDialogue : BaseTabController
         ControllerIGUI.OnTabChange?.Invoke(IGUITab.AssassinSelector);
     }
 
-    private void SetDialogueText(string talkerName, string dialogueLine, TalkerType talker, Image suspectPortrait)
+    private void SetDialogueText(string talkerName, string dialogueLine, TalkerType talker, Image suspectPortrait, Image suspectMouth, Image suspectEyes)
     {
         _talkerNameText.text = talkerName;
         _dialogueText.text = dialogueLine;
@@ -59,22 +61,27 @@ public class ControllerDialogue : BaseTabController
         _playerPortrait.color = nonTalkerColor;
         if (suspectPortrait != null)
             suspectPortrait.color = nonTalkerColor;
+        if (suspectMouth != null)
+            suspectMouth.color = nonTalkerColor;
+        if (suspectEyes != null)
+            suspectEyes.color = nonTalkerColor;
 
         switch (talker)
         {
             case TalkerType.Player:
                 _playerPortrait.color = talkerColor;
-                //_dialogueText.alignment = TextAlignmentOptions.TopRight;
+                _playerEyes.color = talkerColor;
+                _playerMouth.color = talkerColor;
                 break;
             case TalkerType.Character:
                 if (suspectPortrait != null)
                     suspectPortrait.color = talkerColor;
 
-                //_dialogueText.alignment = TextAlignmentOptions.TopLeft;
-                break;
+                if (suspectMouth != null)
+                    suspectMouth.color = talkerColor;
 
-            case TalkerType.Narrator:
-                //_dialogueText.alignment = TextAlignmentOptions.TopJustified;
+                if (suspectEyes != null)
+                    suspectEyes.color = talkerColor;
                 break;
         }
     }

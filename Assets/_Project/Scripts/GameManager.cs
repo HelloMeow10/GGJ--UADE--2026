@@ -13,6 +13,13 @@ public class GameManager : MonoBehaviour
     public static WaitForSeconds DialogueDelay = new(0.25f);
     public static WaitForSeconds TypewriterDelay = new(0.015f);
 
+    public static WaitForSeconds BlinkDelay = new(1f);
+    public static WaitForSeconds BlinkDelayClose = new(.2f);
+
+    public static WaitForSeconds BlinkDelayPlayer = new(1.25f);
+    public static WaitForSeconds BlinkDelayPlayerClose = new(.2f);
+
+
     public static Action<Assassin> OnDialogueStart;
     public static Action OnDialogueEnd;
 }

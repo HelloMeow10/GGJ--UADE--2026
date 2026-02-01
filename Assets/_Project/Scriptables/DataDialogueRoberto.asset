@@ -1015,6 +1015,16 @@ MonoBehaviour:
       m_WaitForCompletion: 0
       m_LocalVariables: []
     Talker: 1
+  - Line:
+      m_TableReference:
+        m_TableCollectionName: GUID:0282fb2867b92364091af83f4c6a4f15
+      m_TableEntryReference:
+        m_KeyId: 34414425296896
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    Talker: 2
   references:
     version: 2
     RefIds: []

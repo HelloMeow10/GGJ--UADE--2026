@@ -88,6 +88,8 @@ public class ControllerDialogueHelper : MonoBehaviour
     {
         while (_currentLineIndex <= _maxIndex)
         {
+            ControllerDialogue.OnEnableDisableNotepadButton?.Invoke(false);
+            
             DialogueLine dialogueLine = _dialogueData.Dialogue[_currentLineIndex];
             string talkerName = GetTalkerName(dialogueLine.Talker);
             
@@ -104,6 +106,7 @@ public class ControllerDialogueHelper : MonoBehaviour
             yield return GameManager.DialogueDelay;
 
             // Wait for player input before proceeding to the next line
+            ControllerDialogue.OnEnableDisableNotepadButton?.Invoke(true);
             yield return _waitForPlayerInput;
 
             _currentLineIndex++;
@@ -136,7 +139,7 @@ public class ControllerDialogueHelper : MonoBehaviour
     }
 
     private IEnumerator TypewriterEffect(string talkerName, string fullText, TalkerType talker)
-    {
+    {        
         string currentText = "";
         bool insideTag = false;
         int visibleCharacterCount = 0;
@@ -155,6 +158,8 @@ public class ControllerDialogueHelper : MonoBehaviour
         {
             char currentChar = fullText[i];
             currentText += currentChar;
+
+            AudioManager.Instance.PlayTypewriterSFX(talker);
             
             // Track when we're inside a rich text tag
             if (currentChar == '<')

@@ -45,6 +45,7 @@ public class AssassinEntry : MonoBehaviour, IAssassinEntry
     {
         ControllerAssassinSelector.OnAssassinSelected?.Invoke(_characterTarget);
         GameManager.SelectedAssassin = _characterTarget;
+        AudioManager.Instance.PlayTypewriterSFX(TalkerType.Player);
 
         #if UNITY_EDITOR
         Debug.Log($"<color=green>Assassin {_characterTarget} selected.</color>");

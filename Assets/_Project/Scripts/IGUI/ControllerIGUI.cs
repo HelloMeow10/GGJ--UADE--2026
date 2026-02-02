@@ -8,6 +8,7 @@ public class ControllerIGUI : MonoBehaviour
     [SerializeField] private BaseTabController _tabNotepad;
     [SerializeField] private BaseTabController _tabAssassinSelector;
     [SerializeField] private BaseTabController _tabDialogue;
+    [SerializeField] private AudioClip _categoryChangeSFX;
 
     public static Action<IGUITab> OnTabChange;
 
@@ -38,6 +39,7 @@ public class ControllerIGUI : MonoBehaviour
         _tabDialogue.HideOrShowTab(newTab == IGUITab.Dialogue);
 
         GameManager.CurrentIGUITab = newTab;
+        AudioManager.Instance.PlaySFX(_categoryChangeSFX, 0.5f);
 
         // Just in case, always force refresh size fitter.
         AssassinEntry.OnForceRefresh?.Invoke();

@@ -2208,7 +2208,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa009e993bec4764d8f32db693bbeee0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  music: {fileID: 0}
   _canvasGroup: {fileID: 287986068}
   _exitButton: {fileID: 0}
   _notepadButton: {fileID: 1911099436}
@@ -3204,7 +3203,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7acfe98101c1fe44aab2cb27d24c5fc0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  music: {fileID: 8300000, guid: d5175be7dca927e4bbe5821af2f84a5f, type: 3}
   _canvasGroup: {fileID: 438045317}
   _exitButton: {fileID: 1084333236}
   _confirmAssassinButton: {fileID: 221588938}
@@ -4559,6 +4557,26 @@ PrefabInstance:
       propertyPath: m_Interactable
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7638380575003515498, guid: eb3db6b723c8c374686e68d08d0f0840, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7638380575003515498, guid: eb3db6b723c8c374686e68d08d0f0840, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1608852897}
+    - target: {fileID: 7638380575003515498, guid: eb3db6b723c8c374686e68d08d0f0840, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnTextChanged
+      objectReference: {fileID: 0}
+    - target: {fileID: 7638380575003515498, guid: eb3db6b723c8c374686e68d08d0f0840, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: ControllerNotepad, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7638380575003515498, guid: eb3db6b723c8c374686e68d08d0f0840, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 8605592538942667675, guid: eb3db6b723c8c374686e68d08d0f0840, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -4988,7 +5006,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ffb31cc7e0b451340a2f2614570bef9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  music: {fileID: 8300000, guid: 414f381eebc29524787d75c8566959eb, type: 3}
   _canvasGroup: {fileID: 1015843765}
   _exitButton: {fileID: 0}
   _toDiaryButton: {fileID: 649055362}
@@ -5872,6 +5889,26 @@ PrefabInstance:
       propertyPath: m_Interactable
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7638380575003515498, guid: eb3db6b723c8c374686e68d08d0f0840, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7638380575003515498, guid: eb3db6b723c8c374686e68d08d0f0840, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1608852897}
+    - target: {fileID: 7638380575003515498, guid: eb3db6b723c8c374686e68d08d0f0840, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnTextChanged
+      objectReference: {fileID: 0}
+    - target: {fileID: 7638380575003515498, guid: eb3db6b723c8c374686e68d08d0f0840, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: ControllerNotepad, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7638380575003515498, guid: eb3db6b723c8c374686e68d08d0f0840, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 8605592538942667675, guid: eb3db6b723c8c374686e68d08d0f0840, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -6625,7 +6662,19 @@ MonoBehaviour:
       m_Calls: []
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1608852897}
+        m_TargetAssemblyTypeName: ControllerNotepad, Assembly-CSharp
+        m_MethodName: OnTextChanged
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_OnTouchScreenKeyboardStatusChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -7734,7 +7783,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff135164df49988438df9f40b4f537f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  music: {fileID: 8300000, guid: 3c853aa778693e4439709fac60a5206f, type: 3}
   _canvasGroup: {fileID: 1608852896}
   _exitButton: {fileID: 185832493}
   _notepadEntryPrefab: {fileID: 2309588532318002606, guid: c8a325d612464064b93105eef225ff47, type: 3}
@@ -8524,6 +8572,18 @@ MonoBehaviour:
     MusicClip: {fileID: 8300000, guid: 685b367fd1ff7f849a2ef5ca236ac558, type: 3}
     Loop: 1
     Character: 2
+  _typewriterSFXs:
+  - {fileID: 8300000, guid: 7b39e7ef1eee4c1408e487735ed98973, type: 3}
+  - {fileID: 8300000, guid: 4827775b539aa974a82448bee9133258, type: 3}
+  - {fileID: 8300000, guid: 264ff47c7c03573469e03cf828bc5ace, type: 3}
+  _highTypewriterSFXs:
+  - {fileID: 8300000, guid: eb6c533a4cbe9fc49a6419b5f57ce87a, type: 3}
+  - {fileID: 8300000, guid: 29cb1a199c637a545981cdf01857a9fe, type: 3}
+  - {fileID: 8300000, guid: 51f0d788043a3614a97d96b4b1657b60, type: 3}
+  _lowTypewriterSFXs:
+  - {fileID: 8300000, guid: f844a4490c2d1284aa2f109de995dc64, type: 3}
+  - {fileID: 8300000, guid: 891421518b4317c42bfcc5dcfdb24a62, type: 3}
+  - {fileID: 8300000, guid: a030950583e063f4aa79e2f2743c0e26, type: 3}
 --- !u!4 &1832891558
 Transform:
   m_ObjectHideFlags: 0
@@ -10066,6 +10126,7 @@ MonoBehaviour:
   _tabNotepad: {fileID: 1608852897}
   _tabAssassinSelector: {fileID: 438045318}
   _tabDialogue: {fileID: 287986069}
+  _categoryChangeSFX: {fileID: 8300000, guid: eeb0723dfc323a74291279d2b9b46d6e, type: 3}
 --- !u!1 &2046853994
 GameObject:
   m_ObjectHideFlags: 0
@@ -11109,6 +11170,26 @@ PrefabInstance:
       propertyPath: _dialogue
       value: 
       objectReference: {fileID: 11400000, guid: 49d98f127e784b344bf00eff787b0a77, type: 2}
+    - target: {fileID: 7638380575003515498, guid: eb3db6b723c8c374686e68d08d0f0840, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7638380575003515498, guid: eb3db6b723c8c374686e68d08d0f0840, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1608852897}
+    - target: {fileID: 7638380575003515498, guid: eb3db6b723c8c374686e68d08d0f0840, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnTextChanged
+      objectReference: {fileID: 0}
+    - target: {fileID: 7638380575003515498, guid: eb3db6b723c8c374686e68d08d0f0840, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: ControllerNotepad, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7638380575003515498, guid: eb3db6b723c8c374686e68d08d0f0840, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

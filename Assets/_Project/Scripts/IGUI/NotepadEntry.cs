@@ -32,6 +32,7 @@ public class NotepadEntry : MonoBehaviour, INotepadEntry
 
     public void OnDeleteButtonPressed()
     {
+        AudioManager.Instance.PlayTypewriterSFX(TalkerType.Player);
         _modifyButton.interactable = false;
         _deleteButton.interactable = false;
 

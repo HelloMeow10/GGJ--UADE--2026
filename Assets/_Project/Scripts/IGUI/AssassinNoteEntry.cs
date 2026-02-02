@@ -19,6 +19,7 @@ public class AssassinNoteEntry : MonoBehaviour
 
     private void OnDeleteEntry()
     {
+        AudioManager.Instance.PlayTypewriterSFX(TalkerType.Player);
         Destroy(gameObject);
     }
 

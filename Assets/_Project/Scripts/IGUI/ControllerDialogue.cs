@@ -22,11 +22,13 @@ public class ControllerDialogue : BaseTabController
     public Color talkerColor = Color.white;
 
     public static Action<string, string, TalkerType, Image, Image, Image> OnDialogueText;
+    public static Action<bool> OnEnableDisableNotepadButton;
 
     protected override void Awake()
     {
         base.Awake();
         OnDialogueText += SetDialogueText;
+        OnEnableDisableNotepadButton += NotepadEnableDisable;
         GameManager.OnDialogueEnd += DialogueEnd;
 
         _notepadButton.onClick.AddListener(OpenNotepad);
@@ -37,6 +39,7 @@ public class ControllerDialogue : BaseTabController
     {
         base.OnDestroy();
         OnDialogueText -= SetDialogueText;
+        OnEnableDisableNotepadButton -= NotepadEnableDisable;
         GameManager.OnDialogueEnd -= DialogueEnd;
 
         _notepadButton.onClick.RemoveListener(OpenNotepad);
@@ -93,5 +96,11 @@ public class ControllerDialogue : BaseTabController
         _dialogueText.text = string.Empty;
         _talkerNameText.text = string.Empty;
         _playerPortrait.color = nonTalkerColor;
+        NotepadEnableDisable(true);
+    }
+
+    private void NotepadEnableDisable(bool enable)
+    {
+        _notepadButton.interactable = enable;
     }
 }

@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class AudioManager : MonoBehaviour
@@ -9,8 +10,13 @@ public class AudioManager : MonoBehaviour
     [Header("Audio Sources")]
     [SerializeField] private AudioSource musicSource;
     [SerializeField] private AudioSource sfxSource;
+
+    [Header("Audio Clips")]
     [SerializeField] private List<AudioClipMapping> _backgroundMusics;
     [SerializeField] private List<CharacterMusicMapping> _characterMusics;
+    [SerializeField] private List<AudioClip> _typewriterSFXs;
+    [SerializeField] private List<AudioClip> _highTypewriterSFXs;
+    [SerializeField] private List<AudioClip> _lowTypewriterSFXs;
 
     private readonly Dictionary<IGUITab, AudioClipMapping> _tabsMusicDict = new();
     private readonly Dictionary<Assassin, CharacterMusicMapping> _charactersMusicDict = new();
@@ -120,6 +126,24 @@ public class AudioManager : MonoBehaviour
         if (clip == null) return;
 
         sfxSource.PlayOneShot(clip, volume);
+    }
+
+    public void PlayTypewriterSFX(TalkerType talker)
+    {
+        if (_typewriterSFXs.Count == 0 || sfxSource.isPlaying) return;
+
+        var clip = _typewriterSFXs.First();
+
+        clip = (object)talker switch
+        {
+            TalkerType.Narrator => _typewriterSFXs[UnityEngine.Random.Range(0, _typewriterSFXs.Count)],
+            TalkerType.Player => _highTypewriterSFXs[UnityEngine.Random.Range(0, _highTypewriterSFXs.Count)],
+            TalkerType.Character => _lowTypewriterSFXs[UnityEngine.Random.Range(0, _lowTypewriterSFXs.Count)],
+            _ => _typewriterSFXs[UnityEngine.Random.Range(0, _typewriterSFXs.Count)],
+        };
+        ;
+
+        sfxSource.PlayOneShot(clip, 0.35f);
     }
 
     // ===================== VOLUME =====================

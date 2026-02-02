@@ -65,7 +65,13 @@ public class ControllerNotepad : BaseTabController
 
     public void OnNewEntryButtonPressed()
     {
+        AudioManager.Instance.PlayTypewriterSFX(TalkerType.Player);
         OnNewEntryStateChange(true);
+    }
+
+    public void OnTextChanged(string newText)
+    {
+        AudioManager.Instance.PlayTypewriterSFX(TalkerType.Player);
     }
 
     private void OnSavedNewEntry(string entryText)
@@ -75,6 +81,7 @@ public class ControllerNotepad : BaseTabController
             return;
 
         OnNewEntryStateChange(false);
+        AudioManager.Instance.PlayTypewriterSFX(TalkerType.Player);
 
         // Generate a new entry.
         if (_entryBeingModified == null)
@@ -149,6 +156,7 @@ public class ControllerNotepad : BaseTabController
         _entryBeingAssigned = entryText;
 
         OnAssignNoteStateChange(true);
+        AudioManager.Instance.PlayTypewriterSFX(TalkerType.Player);
     }
 
     private void NoteAssignedToCharacter(Assassin character)
@@ -166,6 +174,7 @@ public class ControllerNotepad : BaseTabController
     {
         _entryBeingAssigned = string.Empty;
         OnAssignNoteStateChange(false);
+        AudioManager.Instance.PlayTypewriterSFX(TalkerType.Player);
     }
 
     private void OnNewEntryStateChange(bool isAddingNewEntry = true)

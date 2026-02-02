@@ -1130,6 +1130,18 @@ MonoBehaviour:
     MusicClip: {fileID: 8300000, guid: 685b367fd1ff7f849a2ef5ca236ac558, type: 3}
     Loop: 1
     Character: 2
+  _typewriterSFXs:
+  - {fileID: 8300000, guid: 7b39e7ef1eee4c1408e487735ed98973, type: 3}
+  - {fileID: 8300000, guid: 4827775b539aa974a82448bee9133258, type: 3}
+  - {fileID: 8300000, guid: 264ff47c7c03573469e03cf828bc5ace, type: 3}
+  _highTypewriterSFXs:
+  - {fileID: 8300000, guid: 51f0d788043a3614a97d96b4b1657b60, type: 3}
+  - {fileID: 8300000, guid: eb6c533a4cbe9fc49a6419b5f57ce87a, type: 3}
+  - {fileID: 8300000, guid: 29cb1a199c637a545981cdf01857a9fe, type: 3}
+  _lowTypewriterSFXs:
+  - {fileID: 8300000, guid: f844a4490c2d1284aa2f109de995dc64, type: 3}
+  - {fileID: 8300000, guid: a030950583e063f4aa79e2f2743c0e26, type: 3}
+  - {fileID: 8300000, guid: 891421518b4317c42bfcc5dcfdb24a62, type: 3}
 --- !u!4 &1399297808
 Transform:
   m_ObjectHideFlags: 0

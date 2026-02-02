@@ -28,6 +28,7 @@ public class ControllerDialogueHelper : MonoBehaviour
     private int _currentLineIndex = 0;
     private int _maxIndex = 0;
     private bool _canSkip = false;
+    private bool _isInThisDialogue = false;
     private Coroutine _blinkCoroutine = null;
     
     private readonly WaitUntil _waitForPlayerInput = new(() => Input.anyKeyDown && !GameManager.IsHoveringIGUIButtons && GameManager.CurrentIGUITab == IGUITab.Dialogue);
@@ -40,6 +41,15 @@ public class ControllerDialogueHelper : MonoBehaviour
     protected void Start()
     {
         _maxIndex = _dialogueData.Dialogue.Count - 1;
+    }
+
+    protected void Update()
+    {
+        if (_isInThisDialogue && Input.GetKeyDown(KeyCode.Escape))
+        {
+            EndTalk();
+            return;
+        }
     }
 
     protected void OnDestroy()
@@ -61,6 +71,7 @@ public class ControllerDialogueHelper : MonoBehaviour
         #endif
 
         _canSkip = true; // Allow skipping from the first line
+        _isInThisDialogue = true;
         GameManager.OnDialogueStart -= OnDialogueStart;
         StartCoroutine(TalkingCoroutine());
         
@@ -88,6 +99,8 @@ public class ControllerDialogueHelper : MonoBehaviour
     {
         while (_currentLineIndex <= _maxIndex)
         {
+            ControllerDialogue.OnEnableDisableNotepadButton?.Invoke(false);
+            
             DialogueLine dialogueLine = _dialogueData.Dialogue[_currentLineIndex];
             string talkerName = GetTalkerName(dialogueLine.Talker);
             
@@ -104,6 +117,7 @@ public class ControllerDialogueHelper : MonoBehaviour
             yield return GameManager.DialogueDelay;
 
             // Wait for player input before proceeding to the next line
+            ControllerDialogue.OnEnableDisableNotepadButton?.Invoke(true);
             yield return _waitForPlayerInput;
 
             _currentLineIndex++;
@@ -113,30 +127,11 @@ public class ControllerDialogueHelper : MonoBehaviour
             _canSkip = true;
         }
 
-        // Dialogue ended
-        GameManager.IsInDialogueMode = false;
-        GameManager.OnDialogueEnd?.Invoke();
-        ControllerTalkSelection.OnRequestUnlockNextCharacter?.Invoke();
-        PlayerAnims.OnChangeEyeSprite?.Invoke(false);
-
-        // Force switch tab back to chat selector & reset index
-        ControllerIGUI.OnTabChange?.Invoke(IGUITab.ChatSelector);
-        _currentLineIndex = 0;
-        GameManager.OnDialogueStart += OnDialogueStart;
-        CanvasGroupStatus(false);
-
-        // Stop blinking
-        if (_blinkCoroutine != null)
-        {
-            StopCoroutine(_blinkCoroutine);
-            _blinkCoroutine = null;
-        }
-
-        StopAllCoroutines();
+        EndTalk();
     }
 
     private IEnumerator TypewriterEffect(string talkerName, string fullText, TalkerType talker)
-    {
+    {        
         string currentText = "";
         bool insideTag = false;
         int visibleCharacterCount = 0;
@@ -155,6 +150,8 @@ public class ControllerDialogueHelper : MonoBehaviour
         {
             char currentChar = fullText[i];
             currentText += currentChar;
+
+            AudioManager.Instance.PlayTypewriterSFX(talker);
             
             // Track when we're inside a rich text tag
             if (currentChar == '<')
@@ -252,5 +249,30 @@ public class ControllerDialogueHelper : MonoBehaviour
         _selfCanvasGroup.alpha = isEnabled ? 1f : 0f;
         _selfCanvasGroup.interactable = isEnabled;
         _selfCanvasGroup.blocksRaycasts = isEnabled;
+    }
+
+    private void EndTalk()
+    {
+        // Dialogue ended
+        GameManager.IsInDialogueMode = false;
+        GameManager.OnDialogueEnd?.Invoke();
+        ControllerTalkSelection.OnRequestUnlockNextCharacter?.Invoke();
+        PlayerAnims.OnChangeEyeSprite?.Invoke(false);
+
+        // Force switch tab back to chat selector & reset index
+        ControllerIGUI.OnTabChange?.Invoke(IGUITab.ChatSelector);
+        _currentLineIndex = 0;
+        GameManager.OnDialogueStart += OnDialogueStart;
+        CanvasGroupStatus(false);
+
+        // Stop blinking
+        if (_blinkCoroutine != null)
+        {
+            StopCoroutine(_blinkCoroutine);
+            _blinkCoroutine = null;
+        }
+
+        _isInThisDialogue = false;
+        StopAllCoroutines();
     }
 }

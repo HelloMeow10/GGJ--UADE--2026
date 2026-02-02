@@ -3,8 +3,6 @@ using UnityEngine.UI;
 
 public class BaseTabController : MonoBehaviour
 {
-    [Header("music")]
-    [SerializeField] private AudioClip music;
     [Header("BaseTab References")]
     [SerializeField] private CanvasGroup _canvasGroup;
     [SerializeField] private Button _exitButton;

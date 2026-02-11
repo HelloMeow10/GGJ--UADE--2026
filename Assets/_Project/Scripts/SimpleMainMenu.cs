@@ -51,6 +51,8 @@ public class SimpleMainMenu : MonoBehaviour
     // Prevent spamming language change
     private IEnumerator ChangeLanguage()
     {
+        startGameButton.interactable = false;
+        changeLanguage.interactable = false;
         var selectedLocale = LocalizationSettings.SelectedLocale;
         var availableLocales = LocalizationSettings.AvailableLocales.Locales;
         int currentIndex = availableLocales.IndexOf(selectedLocale);
@@ -60,6 +62,9 @@ public class SimpleMainMenu : MonoBehaviour
 
         yield return GameManager.DialogueDelay;
         _canChangeLanguage = true;
+
+        startGameButton.interactable = true;
+        changeLanguage.interactable = true;
     }
 
     private IEnumerator IntitializeLocalization()
